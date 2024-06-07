@@ -3,22 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.pratamatech.mitologinordik">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <application
         android:allowBackup="true"
+        android:name=".MyApplication"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launchernew1"
-        android:label="mitologi"
+        android:label="mitologi nordik"
         android:roundIcon="@mipmap/ic_launchernew1_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/Theme.MitologiNordik"
         tools:targetApi="31">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-6014536128179477~1023724865" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
+            android:value="ca-app-pub-6565353492950343~4581839929" />
+
+        <meta-data android:name="applovin.sdk.key"
+            android:value="WhNkLux7rUGqvQnKRyTr97QVRWwM9Ex3vdSr8oHJ7FbpZEnW5Tga6JN4LoP7DKiNw6hT8GqwOITSJEnsFv63I0"/>
+
         <activity
             android:name=".HelLOKI"
             android:exported="false" />

@@ -14,7 +14,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="20dp">
+            android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -26,29 +31,28 @@
                 android:gravity="center"
                 android:text="SUMUR URD"
                 android:textColor="#F7EDED"
-                android:textSize="30sp"
+                android:textSize="26sp"
                 />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/urdlay">
             </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
                 android:textAlignment="viewStart"
-                android:text="Sumur urd merupakan sumur takdir yang dijaga oleh makhluk bernama Norns,norns adalah kumpulan dari tiga dewi yang menguasai takdir. Dewi-dewi itu adalah Urd, Verdandy, dan Skuld. sumur urd berada di bawah batang/pohon yggdrasil\n\n ada cerita yang menceritakan bahwa odin pernah pergi ke sumur urd untuk memperoleh rune (kekuatan untuk melihat masa depan) odin sampai berpuasa dan menggantungkan dirinya ke pohon,menusuk dirinya dengan tombak selama seminggu,para norns lah yang mengatakan akan ada kiamat ragnarok."
+                android:text="@string/urd"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 

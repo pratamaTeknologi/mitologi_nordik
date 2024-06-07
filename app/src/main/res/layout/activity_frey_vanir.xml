@@ -14,7 +14,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="20dp">
+            android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -26,41 +31,27 @@
                 android:gravity="center"
                 android:text="FREY"
                 android:textColor="#F7EDED"
-                android:textSize="30sp"
-                />
+                android:textSize="26sp"/>
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/freylay">
             </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
                 android:textAlignment="viewStart"
-                android:text="Freyr adalah salah satu dewa yang paling dihormati dan dihormati di antara orang-orang Norse dan orang-orang Jermanik lainnya. Satu puisi Old Norse menyebutnya (yang terpenting dari para dewa dan tidak dibenci oleh siapa pun). Alasan untuk ini tidak sulit untuk dipahami; kesejahteraan dan kemakmuran mereka bergantung pada kebajikannya, yang secara khusus memanifestasikan dirinya dalam kesuburan seksual dan ekologis, panen yang melimpah, kekayaan, dan kedamaian. Perannya dalam memberikan kesehatan dan kelimpahan sering dilambangkan dengan fylgja -nya , babi hutan Gullinborsti (Berbulu Emas), dan oleh lingganya yang besar dan tegak.
-\n\n
-Maka, tidak mengherankan jika Freyr sering menjadi penerima pengorbanan di berbagai kesempatan, seperti pemberkatan pernikahan atau perayaan panen. Selama festival panen, kurban secara tradisional berbentuk binatang kesayangannya, babi hutan.
-\n\n
-Ayahnya adalah Njord , dan ibunya adalah saudara perempuan Njord yang tidak disebutkan namanya (mungkin Nerthus ). Freyr sendiri telah menjadi kekasih banyak dewi dan raksasa , termasuk saudara perempuannya sendiri, Freya .
-\n\n
-Rupanya inses adalah praktik yang umum dan dapat diterima di kalangan Vanir (walaupun di antara orang-orang Jerman yang bersejarah tentu saja tidak).
-\n\n
-Tempat tinggal Freyr adalah Alfheim , tanah air para elf .
-Salah satu barang khas Freyr lainnya adalah kapalnya, Skíðblaðnir, yang selalu memiliki angin yang baik dan dapat dilipat dan dibawa dalam tas kecil.  Namanya, yang berarti Dirakit dari Potongan Kayu Tipis, menunjukkan bahwa itu berfungsi sebagai pola dasar mitologis kapal yang dibangun untuk tujuan ritual tertentu dan tidak pernah dimaksudkan untuk layak laut. Kita tahu dari bukti arkeologi bahwa kapal memainkan peran utama dalam ritual keagamaan pra-Kristen masyarakat Jerman,  yang sangat sesuai dengan peran utama yang dimainkan oleh kapal di Zaman Perunggu dan Besi, khususnya di kalangan Skandinavia.
-\n\n
-Di darat, Freyr melakukan perjalanan dengan kereta yang ditarik oleh babi hutan.ini adalah fitur mitologis lain yang tercermin dalam ritual sejarah. Kita tahu dari sumber Islandia abad pertengahan bahwa pendeta dan/atau pendeta Freyr bepergian ke seluruh negeri dengan kereta yang berisi patung dewa.
-Selama Ragnarok , Freyr dan raksasa Surt ditakdirkan untuk saling menghancurkan."
+                android:text="@string/freyvanir"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 

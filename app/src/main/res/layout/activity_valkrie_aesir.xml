@@ -14,7 +14,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="20dp">
+            android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -26,35 +31,27 @@
                 android:gravity="center"
                 android:text="VALKRIE"
                 android:textColor="#F7EDED"
-                android:textSize="30sp"
-                />
+                android:textSize="26sp" />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/valkyrielay">
             </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
                 android:textAlignment="viewStart"
-                android:text="Dilambangkan dalam kitab lama bahwa Valkyrie adalah manusia bersayap yang membawa tongkat. Valkyrie dianggap dewa karena bijak dan biasanya membantu para prajurit Nordik dalam peperangan. Mereka bertugas memanggil jiwa-jiwa orang-orang meninggal yang terpilih untuk dibawa ke Valhalla untuk dijadikan Einherjar yang nantinya akan membantu para dewa saat Ragnarok tiba.
-\n\n
-Citra modern para valkyrie sebagai gadis anggun dan bangsawan yang membawa pahlawan mati ke Valhalla.  hubungan cinta mereka dengan pria manusia dan mereka membantu Odin dalam mengangkut favoritnya di antara mereka yang terbunuh dalam pertempuran ke Valhalla, di mana mereka akan bertarung di sisinya. selama Ragnarok .
-\n\n
-Sejauh yang kita ketahui hari ini, para Valkyrie selalu memiliki karakteristik seperti itu, tetapi di zaman kafir mereka jauh lebih jahat. Arti nama mereka, (pemilih yang terbunuh,) tidak hanya mengacu pada pilihan mereka yang mendapatkan izin masuk ke Valhalla, tetapi juga pilihan mereka yang mati dalam pertempuran dan menggunakan sihir jahat untuk memastikan bahwa preferensi mereka dalam hal ini membuahkan hasil. . Contoh Valkyrie memutuskan siapa yang hidup dan siapa yang mati berlimpah di Eddas dan saga . Sisi mengerikan para Valkyrie diilustrasikan paling jelas dalam Darraðarljóð , sebuah puisi yang terkandung dalam Saga Njal . Di sini, dua belas valkyrie terlihat sebelum Pertempuran Clontarf, duduk di alat tenun dan menenun tragisnasib para pejuang (suatu kegiatan yang sangat mengingatkan pada Norn ). Mereka menggunakan usus untuk benang mereka, kepala yang terpenggal untuk pemberat, dan pedang dan panah untuk pengocok, sambil melantunkan niat mereka dengan kegembiraan yang tidak menyenangkan.  The Saga of the Volsungs membandingkan melihat valkyrie dengan menatap api."
+                android:text="@string/valkrie"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
-
-
 </RelativeLayout>

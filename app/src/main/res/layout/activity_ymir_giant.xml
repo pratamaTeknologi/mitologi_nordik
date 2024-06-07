@@ -14,7 +14,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="20dp">
+            android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -26,39 +31,28 @@
                 android:gravity="center"
                 android:text="YMIR"
                 android:textColor="#F7EDED"
-                android:textSize="30sp"
+                android:textSize="26sp"
                 />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/ymirlay">
             </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
                 android:textAlignment="viewStart"
-                android:text="YMIR adalah raksasa hermafrodit dan makhluk pertama yang muncul dalam mitos penciptaan Nordik . Sebagai raksasa pertama, dia adalah nenek moyang dari semua raksasa lainnya – dan, karena hampir semua dewa sebagian diturunkan dari raksasa, dia juga nenek moyang mereka.
-\n\n
-Ymir lahir ketika api dari Muspelheim dan es dari Niflheim bertemu di jurang Ginnungagap . Ymir disusui oleh sapi Audhumla untuk makanannya. Ketika dia tidur, beberapa raksasa lainnya dikandung secara aseksual dalam tubuh hermafrodit Ymir, dan secara spontan muncul dari kakinya dan keringat dari ketiaknya.
-\n\n
-Audhumla menerima makanannya dari jilatan garam, dan saat dia menjilat, makhluk bernama Buri, dewa Aesir pertama , dibebaskan dari dalam garam. Dia menghasilkan seorang putra, Borr, yang dikawinkan dengan Bestla, salah satu keturunan Ymir. Dari persatuan mereka datanglah Odin , kepala suku Aesir, dan dua saudara laki-lakinya, Vili dan Ve .
-\n\n
-Saudara-saudara inilah yang kemudian membunuh Ymir dan membentuk kosmos dari mayatnya.
-\n\n
-Secara tematis, Ymir adalah personifikasi dari kekacauan sebelum penciptaan, yang juga digambarkan sebagai kekosongan impersonal Ginnungagap. Baik Ymir maupun Ginnungagap adalah cara berbicara tentang potensi tak terbatas yang belum teraktualisasikan, yang belum menjadi hal khusus yang kita temukan di dunia sekitar kita. Inilah sebabnya mengapa orang Viking menggambarkannya sebagai kekosongan (seperti banyak orang lain yang tak terhitung jumlahnya; pertimbangkan kegelapan di permukaan laut dari bab pertama Kitab Kejadian, misalnya). Ini adalah ketiadaan. Namun demikian, ia mengandung hal-hal dasar yang darinya para dewa dapat membuat hal-hal yang benar – dalam hal ini, materi utama adalah tubuh Ymir, yang dirobek para dewa untuk membuat elemen-elemennya.
-\n\n
-Sangat cocok bagi Ymir untuk menjadi nenek moyang para raksasa, karena ini adalah peran umum para raksasa dalam mitos Nordik. Mereka adalah kekuatan kekacauan tak berbentuk, yang selalu mengancam untuk merusak dan akhirnya membalikkan tatanan yang diciptakan para dewa (dan di Ragnarok , mereka berhasil). Tapi raksasa lebih dari sekedar kekuatan penghancur."
+                android:text="@string/ymir"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 

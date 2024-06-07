@@ -10,56 +10,53 @@
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="20dp">
-            <TextView
-                android:id="@+id/textView"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="50dp"
-                android:fontFamily="@font/viking"
-                android:gravity="center"
-                android:text="BALDUR"
-                android:textColor="#F7EDED"
-                android:textSize="30sp"
-                />
-
-            <ImageView
-                android:layout_width="322dp"
-                android:layout_height="171dp"
                 android:layout_margin="20dp"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/baldurlay">
-            </ImageView>
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="50dp"
+                    android:fontFamily="@font/viking"
+                    android:gravity="center"
+                    android:text="BALDUR"
+                    android:textColor="#F7EDED"
+                    android:textSize="26sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="171dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/baldurlay">
+
+                </ImageView>
+            </LinearLayout>
+
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
+                android:text="@string/baldur"
                 android:textAlignment="viewStart"
-                android:text="Baldur adalah dewa Norse dari suku Aesir dengan keindahan dan kebijaksanaan yang tak tertandingi yang menyelesaikan perselisihan antara manusia dan dewa. Kematiannya sebagai akibat dari tipu daya Loki adalah salah satu cerita sentral dari mitologi Nordik.
-\n\n
- salah satu dewa Aesir . Dia adalah putra Odin dan Frigg , suami dari dewi Nanna yang tidak dikenal, dan ayah dari dewa Forseti .
-Dia dicintai oleh semua dewa, dewi, dan makhluk yang lebih bersifat fisik. Begitu tampan, anggun, dan ceria dia sehingga dia benar-benar memancarkan cahaya.
-\n\n
-Ketika Baldur mulai memimpikan kematiannya, Frigg pergi ke segala sesuatu di dunia dan mengamankan dari mereka masing-masing sumpah untuk tidak menyakiti putranya. Percaya diri akan ketangguhan Baldur, para dewa menghibur diri mereka sendiri dengan melemparkan senjata dan benda acak apa pun yang dapat mereka temukan di Baldur dan melihat mereka memantul darinya, membuatnya benar-benar tidak terluka.
-\n\n
-Loki , penipu para dewa yang licik, merasakan kesempatan untuk berbuat jahat. Dia bertanya kepada Frigg apakah dia telah mengabaikan apa pun dalam usahanya untuk mendapatkan sumpah. Dia dengan santai menjawab bahwa dia mengira mistletoe itu terlalu kecil dan tidak berbahaya untuk meminta janji seperti itu. Loki langsung membuat tombak dari mistletoe dan meyakinkan dewa buta Hodr untuk melemparkannya ke Baldur. Proyektil menembus dewa, dan dia jatuh mati.
-\n\n
-Para dewa yang menderita kemudian menyarankan bahwa salah satu dari mereka harus pergi ke dunia bawah untuk melihat apakah ada cara agar Baldur dapat diambil dari cengkeraman dewi kematian, Hel . Hermod , salah satu dari banyak putra Odin, setuju untuk melakukan perjalanan ini, dan, sambil menunggangi kuda Odin, Sleipnir , dia menunggangi pohon dunia.sampai dia sampai di akarnya yang gelap dan lembab, di mana letak tempat tinggal Hel. Ketika dia tiba, dia menemukan saudaranya, pucat dan muram, duduk di kursi kehormatan di sebelah Hel. Hermod memohon kepada dewi yang mengerikan untuk melepaskan Baldur, dan setelah banyak bujukan, dia menjawab bahwa dia akan menyerahkannya jika dan hanya jika segala sesuatu di dunia ini akan menangisi Baldur – untuk membuktikan, dengan kata lain, bahwa dia dicintai secara universal seperti Hermod. diklaim.
-\n\n
-Seluruh dunia memang menangisi putra Odin yang murah hati – semuanya, kecuali satu makhluk. Raksasa ökk, umumnya diasumsikan sebagai Loki yang menyamar, tanpa perasaan menolak untuk melakukan tindakan yang akan mengamankan kembalinya Baldur. Dan Baldur ditakdirkan untuk tetap bersama Hel di alam tanpa kegembiraannya."
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 

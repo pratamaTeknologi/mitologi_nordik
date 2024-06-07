@@ -14,7 +14,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="20dp">
+            android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -26,16 +31,17 @@
                 android:gravity="center"
                 android:text="VERDFORNIR"
                 android:textColor="#F7EDED"
-                android:textSize="30sp"
+                android:textSize="26sp"
                 />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/vedrfornirlay">
             </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
@@ -46,14 +52,9 @@
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
                 android:textAlignment="viewStart"
-                android:text="Adalah elang yang duduk di antara mata elang tanpa nama yang bertengger di atas dari pohon dunia Yggdrasil . Veðrfölnir terkadang di -inggriskan secara modern sebagai Vedrfolnir , Vedfolnir atau Vethrfolnir .
-\n\n
-Elang yang tidak disebutkan namanya, ratatoskr tupai membawa pesan antara elang yang tidak disebutkan namanya dan Nidhöggr , wyrm yang berada di bawah pohon dunia.mereka berkirim pesan saling mengejek.
-
-"
+                android:text="@string/verd"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
-
 </RelativeLayout>

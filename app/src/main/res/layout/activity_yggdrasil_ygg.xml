@@ -14,9 +14,14 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"
             android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -28,43 +33,28 @@
                 android:gravity="center"
                 android:text="YGGDRASIL"
                 android:textColor="#F7EDED"
-                android:textSize="30sp" />
+                android:textSize="26sp" />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="20dp"
-                android:src="@drawable/yggdrasillay"></ImageView>
+                android:layout_marginTop="20dp"
+                android:src="@drawable/yggdrasillay">
 
+            </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
-                android:text="Dalam mitologi Nordik, Yggdrasil adalah pohon kehidupan, pohon raksasa yang sangat besar dan keramat yang menghubungkan sembilan dunia dalam kosmologi Nordik.Yggdrasil digambarkan seperti pohon yang menopang alam semesta. Maka, sebelum disebut Yggdrasil, pohon ini juga dinamai Mimameidr oleh masyarakat Nordik Kuno yang berarti penyangga alam semesta. Kadang kala disebut  Lérað.
-\n\n
-Pada cabangnya terletak Ásgard, Vanaheim, dan Álfheim. Pada batangnya terletak dunia manusia yang bernama Midgard, yang mana Jötunheim juga berada di sekitarnya, dan di bawahnya terletak Nidhavellir yang juga disebut Svartálfheim. Ketiga akarnya menembus tiga dunia yang bernama Hel, Niflheim, dan Muspelheim, meskipun hanya dunia pertama yang memperoleh mata air Yggdrasil.
-Yggdrasil muncul dalam mitologi ,Ragnarök. Dalam mitologi tersebut, hanya dua manusia yang berhasil menyelamatkan diri dari Ragnarök, bernama Lif dan Lifthrasir, yang berlindung pada cabang Yggdrasil. Di mana mereka hidup dari embun dan dilindungi.
-\n\n
-Ada beberapa makhluk yang tinggal di cabang-cabang Yggdrasil. Selain Nidhoggr dan beberapa ular, yang menggerogoti akarnya., Ratatoskr, dan seekor elang verdfornir. Elang dan tupai itu sering bergantian mengganggu Nidhog.
-\n\n
-Sementara kambing Heidrun hidup di atap Valhalla, bersama rusa jantan Eikthyrnir. Heidrun suka memakan tunas baru yang tumbuh dari pohon, dan Eikthyrnir memakan daun Yggdrasil.
-\n\n
-Meski demikian Heidrun juga menghasilkan aliran madu ke bak besar Valhalla. Madu ini dimanfaatkan para kesatria yang sering berlatih untuk Ragnarok.
-Tetapi dalam beberapa bagian, Yggdrasil dan Odin juga dianggap satu sosok yang sama.
-\n\n
-Karena menopang dunia, Ygdrassil dilindungi oleh tiga perempuan tua yang disebut Norn. Mereka digambarkan sebagai Urd (masa lalu), Verdandi (sekarang), dan Skuld (masa depan). Ketiga Norn itu juga bertugas untuk membentuk waktu lewat menenun.
-\n\n
-Yggdrassil juga akan menjadi tempat dua manusia terakhir—Lif dan Lifthrasir—untuk berlindung. Dalam perlindungan inilah, ketika segala kekacauan berakhir, mereka akan menjadi Ask dan Embla untuk mengulang kembali penciptaan umat manusia."
+                android:text="@string/ygg"
                 android:textAlignment="viewStart"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
-
 </RelativeLayout>

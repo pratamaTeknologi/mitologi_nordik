@@ -14,9 +14,14 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"
             android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -28,39 +33,27 @@
                 android:gravity="center"
                 android:text="SIFF"
                 android:textColor="#F7EDED"
-                android:textSize="30sp" />
-
-
+                android:textSize="26sp" />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="20dp"
-                android:src="@drawable/sifflay"></ImageView>
-
+                android:layout_marginTop="20dp"
+                android:src="@drawable/sifflay">
+            </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
-                android:text="Sif adalah dewi Norse yang agak sering disebutkan dalam literatur Norse Kuno ,adalah bahwa dia adalah istri dari dewa badai Thor . Namanya sepertinya berarti (hubungan melalui pernikahan)
-\n\n
-Dia dikatakan sebagai ibu dari dewa Ullr yang tidak dikenal, yang ayahnya tidak diketahui ternyata adalah orang lain selain Thor.
-\n\n
-Dia juga berperan dalam kisah The Creation of Thor's Hammer , meskipun di sini juga, perannya benar-benar pasif. Di sini dikatakan bahwa Sif memiliki rambut emas yang indah, yang dipotong oleh penipu licik Loki suatu hari ketika dia menemukan dirinya dalam suasana hati yang sangat nakal. Thor, marah, mengancam akan membunuh Loki, tetapi Loki meyakinkan dewa guntur untuk menyelamatkan nyawanya dengan syarat dia menemukan rambut yang lebih indah untuk Sif. Thor setuju, dan Loki pergi untuk mendapatkan rambut baru Sif.
-\n\n
-Salah satu peran utama Thor dalam agama Jerman kuno adalah sebagai pembawa kelimpahan pertanian.
-\n\n
-Keberadaan Sif secara khusus dikaitkan dengan tumbuh-tumbuhan di permukaan bumi, yang ditunjukkan oleh sifat rambutnya, juga dikuatkan oleh fakta bahwa spesies lumut ( Polytrichum aureum ) disebut haddr Sifjar (rambut Sif) di Norse tua .
-"
+                android:text="@string/siff"
                 android:textAlignment="viewStart"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 

@@ -14,7 +14,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="20dp">
+            android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -26,36 +31,28 @@
                 android:gravity="center"
                 android:text="SKADI"
                 android:textColor="#F7EDED"
-                android:textSize="30sp"
+                android:textSize="26sp"
                 />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/skadilay">
             </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
                 android:textAlignment="viewStart"
-                android:text="Skadi adalah seorang raksasa dan dewi dalam mitologi Nordik. Namanya identik dengan kata benda Norse Kuno skaði , bahaya,
-\n\n
-Skadi tinggal di pegunungan tertinggi, di mana salju tidak pernah mencair. Dia seorang pemburu yang rajin, dan busur, sepatu salju, dan skinya adalah atributnya yang paling sering disebutkan.
-\n\n
-Dia pernah menikah dengan dewa Njord . Namun, pernikahan mereka gagal; Njord tidak tahan dengan dingin dan suramnya pegunungan, dan Skadi tidak tahan dengan cahaya dan kebisingan rumah Njord di tepi pantai, jadi keduanya berpisah.
-\n\n
-Raksasa (atau, untuk menggunakan kata yang lebih tepat menerjemahkan nama Norse Kuno mereka, pemakan) sebagian besar adalah kekuatan kegelapan, dingin, dan kematian. Skadi cocok dengan pola ini, dan tampaknya memiliki asosiasi khusus dengan musim dingin. Statusnya sebagai dewi melalui pernikahan, bagaimanapun, bersama dengan frekuensi pemujaan historisnya, tampaknya menunjukkan bahwa dia memiliki sikap yang lebih baik hati daripada kebanyakan kerabatnya, mungkin dalam kapasitas sebagai pelindung kegiatan subsisten musim dingin."
+                android:text="@string/skadi"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
-
 </RelativeLayout>

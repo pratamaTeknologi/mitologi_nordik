@@ -58,69 +58,21 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/ygg1"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/yggdrasil"
-                        android:onClick="yggdrasilygg"
+                        android:src="@drawable/yggdrasil"
                         />
 
                     <ImageView
+                        android:id="@+id/ygg2"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/vedrfornir"
-                        android:onClick="verdfornirygg"
-                        />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="140dp"
-                        android:layout_margin="10dp"
-                        android:layout_weight="5"
-                        android:background="@drawable/vanaheim"
-                        android:onClick="vanaheimygg" />
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="140dp"
-                        android:layout_margin="10dp"
-                        android:layout_weight="5"
-                        android:background="@drawable/vallhala"
-                        android:onClick="vallhalaygg" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="140dp"
-                        android:layout_margin="10dp"
-                        android:layout_weight="5"
-                        android:background="@drawable/urd"
-                        android:onClick="urdygg"
-                        />
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="140dp"
-                        android:layout_margin="10dp"
-                        android:layout_weight="5"
-                        android:background="@drawable/svartalfaheim"
-                        android:onClick="svartalheimyggg"
+                        android:src="@drawable/vedrfornir"
                         />
                 </LinearLayout>
 
@@ -131,70 +83,21 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/ygg3"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/ratatoskr"
-                        android:onClick="ratatoskrygg"
-                        />
+                        android:src="@drawable/vanaheim"
+                         />
 
                     <ImageView
+                        android:id="@+id/ygg4"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/niflheim"
-                        android:onClick="niflheimygg"
-                        />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="140dp"
-                        android:layout_margin="10dp"
-                        android:layout_weight="5"
-                        android:background="@drawable/muspelheim"
-                        android:onClick="muspelheimygg"
-                        />
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="140dp"
-                        android:layout_margin="10dp"
-                        android:layout_weight="5"
-                        android:background="@drawable/nidhogg"
-                        android:onClick="nidhogggyy" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="140dp"
-                        android:layout_margin="10dp"
-                        android:layout_weight="5"
-                        android:background="@drawable/jotunheim"
-                        android:onClick="jotunheimygg"
-                        />
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="140dp"
-                        android:layout_margin="10dp"
-                        android:layout_weight="5"
-                        android:background="@drawable/hvelgermir"
-                        android:onClick="hvelgermirygg"
+                        android:src="@drawable/vallhala"
                         />
                 </LinearLayout>
 
@@ -205,21 +108,22 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/ygg5"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/helheim"
-                        android:onClick="helheimygg"
+                        android:src="@drawable/urd"
                         />
 
                     <ImageView
+                        android:id="@+id/ygg6"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/bifrost"
-                        android:onClick="bifrostygg" />
+                        android:src="@drawable/svartalfaheim"
+                        />
                 </LinearLayout>
 
                 <LinearLayout
@@ -229,21 +133,121 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/ygg7"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/asgard"
-                        android:onClick="asgardygg"
+                        android:src="@drawable/ratatoskr"
                         />
 
                     <ImageView
+                        android:id="@+id/ygg8"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/alfheim"
-                        android:onClick="alfheimygg"
+                        android:src="@drawable/niflheim"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ygg9"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:src="@drawable/muspelheim"
+                        />
+
+                    <ImageView
+                        android:id="@+id/ygg10"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:src="@drawable/nidhogg"
+                         />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ygg11"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:src="@drawable/jotunheim"
+                        />
+
+                    <ImageView
+                        android:id="@+id/ygg12"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:src="@drawable/hvelgermir"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ygg13"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:src="@drawable/helheim"
+                        />
+
+                    <ImageView
+                        android:id="@+id/ygg14"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:src="@drawable/bifrost"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ygg15"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:src="@drawable/asgard"
+                        />
+
+                    <ImageView
+                        android:id="@+id/ygg16"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:src="@drawable/alfheim"
                         />
                 </LinearLayout>
 
@@ -255,32 +259,23 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/ygg17"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/midgard"
-                        android:onClick="midgardygg"
+                        android:src="@drawable/midgard"
                         />
 
                     <ImageView
+                        android:id="@+id/ygg18"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/mimir"
-                        android:onClick="mimirygg" />
+                        android:src="@drawable/mimir" />
                 </LinearLayout>
             </LinearLayout>
-            <com.google.android.gms.ads.AdView
-                android:id="@+id/adViewygg"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                ads:adSize="SMART_BANNER"
-                ads:adUnitId="ca-app-pub-6014536128179477/5350193089">
-
-            </com.google.android.gms.ads.AdView>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

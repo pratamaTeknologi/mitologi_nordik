@@ -14,7 +14,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="20dp">
+            android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -26,31 +31,28 @@
                 android:gravity="center"
                 android:text="BURI"
                 android:textColor="#F7EDED"
-                android:textSize="30sp"
+                android:textSize="26sp"
                 />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/burilay">
             </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
                 android:textAlignment="viewStart"
-                android:text="Buri adalah raksasa leluhur para dewa. Buri diciptakan dari sebuah batu atau es yang dijilati oleh sapi purba raksasa, Audumla, hingga membentuk dirinya. Buri adalah ayah Bor dan kakek dari tiga dewa Aesir pertama, yaitu Odin, Vili dan Ve.
-\n\n
-Tidak benar-benar jelas apakah Buri merupakan seorang dewa atau raksasa. "
+                android:text="@string/buri"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 

@@ -120,13 +120,19 @@
         </LinearLayout>
     </ScrollView>
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adViewmain"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        ads:adSize="SMART_BANNER"
-        ads:adUnitId="ca-app-pub-6014536128179477/1826003781">
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        android:id="@+id/adViewmain"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        ads:adSize="SMART_BANNER"-->
+<!--        ads:adUnitId="ca-app-pub-6014536128179477/2034589323">-->
 
-    </com.google.android.gms.ads.AdView>
+<!--    </com.google.android.gms.ads.AdView>-->
+    <com.applovin.mediation.ads.MaxAdView xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        android:id="@+id/adBannerLovin"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        maxads:adUnitId="7cbb21544a850b69" />
 </RelativeLayout>

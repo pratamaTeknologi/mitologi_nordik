@@ -14,9 +14,14 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"
             android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -28,33 +33,28 @@
                 android:gravity="center"
                 android:text="ASH AND ELM"
                 android:textColor="#F7EDED"
-                android:textSize="30sp" />
+                android:textSize="26sp" />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="20dp"
-                android:src="@drawable/ashelmlay"></ImageView>
+                android:src="@drawable/ashelmlay">
 
+            </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
-                android:text="Ash dan Embla adalah manusia pertama – laki-laki dan perempuan, masing-masing – yang diciptakan dalam mitologi Nordik.
-\n\n
-Tidak lama setelah dunia itu sendiri diciptakan , Odin berjalan di sepanjang pantai salah satu daratan baru. Bersamanya ada dua dewa lain saudara laki-lakinya Vili dan Ve.
-\n\n
-Tiga dewa menemukan dua batang pohon, mungkin potongan kayu apung, tergeletak di pantai. Mereka berbentuk seperti pria dan wanita, tetapi mereka tidak bernyawa dan tidak berdaya. Jadi ketiga dewa memutuskan untuk memberi mereka apa yang kurang dan menjadikan mereka manusia sejati. Odin meniupkan nafas kehidupan kepada mereka, sementara kedua dewa memberikan inspirasi aktivitas mental , kulit yang sehat, dan kemampuan untuk berbicara, mendengar, dan melihat. Mereka mendandani mereka dengan pakaian yang sesuai dan menamai pria itu ash dan wanita itu Embla/elm. Ash dan Embla kemudian diberikan Midgard , dunia peradaban manusia, untuk tempat tinggal mereka. Mereka menjadi ayah dan ibu dari seluruh spesies manusia."
+                android:text="@string/ashelm"
                 android:textAlignment="viewStart"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
-
 </RelativeLayout>

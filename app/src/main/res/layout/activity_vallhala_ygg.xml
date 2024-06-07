@@ -14,7 +14,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="20dp">
+            android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -26,37 +31,28 @@
                 android:gravity="center"
                 android:text="VALLHALA"
                 android:textColor="#F7EDED"
-                android:textSize="30sp"
+                android:textSize="26sp"
                 />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/valhallalay">
             </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
                 android:textAlignment="viewStart"
-                android:text="Vallhala adalah aula tempat dewa Odin menampung orang mati yang dia anggap layak untuk tinggal bersamanya.Valhalla yang terang seperti emas terbuat dari perisai, dan memiliki tombak untuk kasaunya. Kursi yang terbuat dari penutup dada mengelilingi banyak meja pesta di aula yang luas.
-Gerbangnya dijaga oleh serigala, dan elang terbang di atasnya.
-\n\n
-Orang mati yang tinggal di Valhalla, sang einherjar , menjalani kehidupan yang membuat iri prajurit Viking mana pun. Sepanjang hari, mereka berkelahi satu sama lain, melakukan perbuatan mulia yang tak terhitung jumlahnya di sepanjang jalan. Tetapi setiap malam, semua luka mereka disembuhkan, dan mereka pulih sepenuhnya.
-\n\n
-Mereka pasti sangat bersemangat dari semua pertempuran itu, dan makan malam mereka tidak mengecewakan. Daging mereka berasal dari babi hutan Saehrimnir (Old Norse Sæhrímnir, yang hidup kembali setiap kali dia disembelih dan disembelih. Untuk minuman mereka, mereka memiliki mead yang berasal dari ambing kambing Heidrun (Old Norse Heiðrun. Dengan demikian, mereka menikmati persediaan makanan dan minuman yang sangat lezat tanpa henti. Mereka ditunggu oleh Valkyrie yang cantik .
-\n\n
-Tapi einherjar tidak akan menjalani kehidupan yang mempesona ini selamanya. Penduduk Valhalla yang ahli dalam pertempuran ada di sana atas kehendak Odin, yang mengumpulkan mereka untuk tujuan yang sangat egois agar mereka datang membantunya dalam perjuangan yang ditakdirkan melawan serigala Fenrir selama Ragnarok – pertempuran di mana Odin dan einherjar ditakdirkan untuk kalah mati."
+                android:text="@string/vallhala"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
-
 </RelativeLayout>

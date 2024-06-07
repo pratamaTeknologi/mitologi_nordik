@@ -8,62 +8,76 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
 public class Giant extends AppCompatActivity {
+
+    private ImageView giant1,giant2,giant3,giant4,giant5,giant6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getSupportActionBar().hide();
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_giant);
 
-        AdRequest adreq = new AdRequest.Builder().build();
-        AdView ad = findViewById(R.id.adViewgiant);
-        ad.loadAd(adreq);
+        initView();
+    }
 
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+    private void initView() {
+        giant1 = findViewById(R.id.giant1);
+        giant2 = findViewById(R.id.giant2);
+        giant3 = findViewById(R.id.giant3);
+        giant4 = findViewById(R.id.giant4);
+        giant5 = findViewById(R.id.giant5);
+        giant6 = findViewById(R.id.giant6);
+
+        giant1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onInitializationComplete(@NonNull InitializationStatus initializationStatus) {
-
+            public void onClick(View view) {
+                startActivity(new Intent(Giant.this, YmirGiant.class));
             }
         });
-    }
+        giant2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Giant.this, SkadiGiant.class));
+            }
+        });
+        giant3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Giant.this, NottGiant.class));
+            }
+        });
+        giant4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Giant.this, DagrGiant.class));
+            }
+        });
+        giant5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Giant.this, GamrGiant.class));
+            }
+        });
+        giant6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Giant.this, BestlaGiant.class));
+            }
+        });
 
-    public void ymirgian(View view) {
-        Intent ymirg = new Intent(Giant.this,YmirGiant.class);
-        startActivity(ymirg);
-    }
-
-    public void skadigian(View view) {
-        Intent skadig = new Intent(Giant.this,SkadiGiant.class);
-        startActivity(skadig);
-    }
-
-    public void dagrgian(View view) {
-        Intent dagrg = new Intent(Giant.this, com.pratamatech.mitologinordik.DagrGiant.class);
-        startActivity(dagrg);
-    }
-
-    public void nottgian(View view) {
-        Intent nottg = new Intent(Giant.this,NottGiant.class);
-        startActivity(nottg);
-    }
-
-    public void gamrgian(View view) {
-        Intent gamrg = new Intent(Giant.this, com.pratamatech.mitologinordik.GamrGiant.class);
-        startActivity(gamrg);
-    }
-
-    public void bestla(View view) {
-        Intent bestlag = new Intent(Giant.this, com.pratamatech.mitologinordik.BestlaGiant.class);
-        startActivity(bestlag);
     }
 }

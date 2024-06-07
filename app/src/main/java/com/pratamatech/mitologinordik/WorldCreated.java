@@ -9,67 +9,84 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
+
 
 public class WorldCreated extends AppCompatActivity {
+
+    private ImageView wc1,wc2,wc3,wc4,wc5,wc6,wc7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getSupportActionBar().hide();
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_world_created);
 
-        AdRequest adreq = new AdRequest.Builder().build();
-        AdView ad = findViewById(R.id.adViewwc);
-        ad.loadAd(adreq);
+        initView();
 
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+    }
+
+    private void initView() {
+        wc1 = findViewById(R.id.wc1);
+        wc2 = findViewById(R.id.wc2);
+        wc3 = findViewById(R.id.wc3);
+        wc4 = findViewById(R.id.wc4);
+        wc5 = findViewById(R.id.wc5);
+        wc6 = findViewById(R.id.wc6);
+        wc7 = findViewById(R.id.wc7);
+
+        wc1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onInitializationComplete(@NonNull InitializationStatus initializationStatus) {
-
+            public void onClick(View view) {
+                startActivity(new Intent(WorldCreated.this, GinungagapWC.class));
             }
         });
-    }
-
-    public void ginungagapwc(View view) {
-        Intent ginunglay = new Intent(WorldCreated.this,GinungagapWC.class);
-        startActivity(ginunglay);
-    }
-
-    public void audhumlawc(View view) {
-        Intent audhumlalay = new Intent(WorldCreated.this,AudhumlaWC.class);
-        startActivity(audhumlalay);
-    }
-
-    public void ymirff(View view) {
-        Intent ymirflay = new Intent(WorldCreated.this, com.pratamatech.mitologinordik.YmirFightWC.class);
-        startActivity(ymirflay);
-    }
-
-    public void surtr(View view) {
-        Intent surtrlay = new Intent(WorldCreated.this, com.pratamatech.mitologinordik.SurtrWC.class);
-        startActivity(surtrlay);
-    }
-
-    public void skollhati(View view) {
-        Intent skollhatilay = new Intent(WorldCreated.this,SkollHatiWC.class);
-        startActivity(skollhatilay);
-    }
-
-    public void ashelm(View view) {
-        Intent ashelmlay = new Intent(WorldCreated.this, Ash_ElmWC.class);
-        startActivity(ashelmlay);
-    }
-
-    public void dwaft(View view) {
-        Intent dwaftlay = new Intent(WorldCreated.this, DwaftWC.class);
-        startActivity(dwaftlay);
+        wc2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(WorldCreated.this, AudhumlaWC.class));
+            }
+        });
+        wc3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(WorldCreated.this, YmirFightWC.class));
+            }
+        });
+        wc4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(WorldCreated.this, SurtrWC.class));
+            }
+        });
+        wc5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(WorldCreated.this, SkollHatiWC.class));
+            }
+        });
+        wc6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(WorldCreated.this, Ash_ElmWC.class));
+            }
+        });
+        wc7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(WorldCreated.this, DwaftWC.class));
+            }
+        });
     }
 }

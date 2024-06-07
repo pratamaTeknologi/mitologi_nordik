@@ -30,21 +30,8 @@ public class About extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getSupportActionBar().hide();
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_about);
-
-
-        AdRequest adreq = new AdRequest.Builder().build();
-        AdView ad = findViewById(R.id.adViewabout);
-        ad.loadAd(adreq);
-
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(@NonNull InitializationStatus initializationStatus) {
-
-            }
-        });
 
         dialog = new Dialog(this);
         dialog.setContentView(R.layout.popup_about);
@@ -55,22 +42,22 @@ public class About extends AppCompatActivity {
         googlePlay2 = dialog.findViewById(R.id.img_googleplay2);
         kontak = dialog.findViewById(R.id.kontak);
 
-        String noWa = "https://wa.me/message/4ODUI6GVLTGEA1";
-        Uri wa = Uri.parse(noWa);
-        kontak.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Intent.ACTION_VIEW, wa));
-            }
-        });
+//        String noWa = "https://wa.me/message/4ODUI6GVLTGEA1";
+//        Uri wa = Uri.parse(noWa);
+//        kontak.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(Intent.ACTION_VIEW, wa));
+//            }
+//        });
 
         String url1 = "https://play.google.com/store/apps/details?id=com.pratamatech.greekmytology&hl=en";
         Uri uri1 = Uri.parse(url1);
 
-        String url2 = "https://play.google.com/store/apps/details?id=com.pratamatech.mitologimesir&hl=en";
+        String url2 = "https://play.google.com/store/apps/details?id=com.papps.mitologmesir";
         Uri uri2 = Uri.parse(url2);
 
-        String url3 = "https://play.google.com/store/apps/dev?id=8563028872347025640&hl=en";
+        String url3 = "https://play.google.com/store/apps/details?id=com.papps.mitologijepang";
         Uri uri3 = Uri.parse(url3);
         googlePlay.setOnClickListener(new View.OnClickListener() {
             @Override

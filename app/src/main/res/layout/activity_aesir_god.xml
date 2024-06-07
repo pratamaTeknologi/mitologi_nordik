@@ -60,20 +60,22 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/aesir1"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/odin"
-                        android:onClick="odinGod" />
+                        android:src="@drawable/odin"
+                         />
 
                     <ImageView
+                        android:id="@+id/aesir2"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/ve"
-                        android:onClick="veGod" />
+                        android:src="@drawable/ve"
+                        />
                 </LinearLayout>
 
                 <LinearLayout
@@ -83,20 +85,22 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/aesir3"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/vili"
-                        android:onClick="viliGod" />
+                        android:src="@drawable/vili"
+                        />
 
                     <ImageView
+                        android:id="@+id/aesir4"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/heimdal"
-                        android:onClick="heimdalGod" />
+                        android:src="@drawable/heimdal"
+                         />
                 </LinearLayout>
 
                 <LinearLayout
@@ -106,20 +110,22 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/aesir5"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/thor"
-                        android:onClick="thorGod" />
+                        android:src="@drawable/thor"
+                         />
 
                     <ImageView
+                        android:id="@+id/aesir6"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/valkrie"
-                        android:onClick="valkrieGodd" />
+                        android:src="@drawable/valkrie"
+                         />
                 </LinearLayout>
 
                 <LinearLayout
@@ -129,20 +135,22 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/aesir7"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/tyr"
-                        android:onClick="tyrGood" />
+                        android:src="@drawable/tyr"
+                         />
 
                     <ImageView
+                        android:id="@+id/aesir8"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/loki"
-                        android:onClick="lokiGod" />
+                        android:src="@drawable/loki"
+                         />
                 </LinearLayout>
 
                 <LinearLayout
@@ -152,20 +160,22 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/aesir9"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/idun"
-                        android:onClick="idunGood" />
+                        android:src="@drawable/idun"
+                        />
 
                     <ImageView
+                        android:id="@+id/aesir10"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/baldur"
-                        android:onClick="baldurGod" />
+                        android:src="@drawable/baldur"
+                         />
                 </LinearLayout>
 
                 <LinearLayout
@@ -175,20 +185,22 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/aesir11"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/borr"
-                        android:onClick="borrGood" />
+                        android:src="@drawable/borr"
+                        />
 
                     <ImageView
+                        android:id="@+id/aesir12"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/bragi"
-                        android:onClick="bragiGod" />
+                        android:src="@drawable/bragi"
+                         />
                 </LinearLayout>
 
                 <LinearLayout
@@ -198,20 +210,22 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/aesir13"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/buri"
-                        android:onClick="buriGod" />
+                        android:src="@drawable/buri"
+                         />
 
                     <ImageView
+                        android:id="@+id/aesir14"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/forseti"
-                        android:onClick="forsetiGood" />
+                        android:src="@drawable/forseti"
+                         />
                 </LinearLayout>
 
                 <LinearLayout
@@ -221,20 +235,22 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/aesir15"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/gefjun"
-                        android:onClick="gefjunGod" />
+                        android:src="@drawable/gefjun"
+                         />
 
                     <ImageView
+                        android:id="@+id/aesir16"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/modi_magni"
-                        android:onClick="modimagniGod" />
+                        android:src="@drawable/modi_magni"
+                       />
                 </LinearLayout>
 
                 <LinearLayout
@@ -245,32 +261,24 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/aesir17"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/siff"
-                        android:onClick="siffGood" />
+                        android:src="@drawable/siff"
+                         />
 
                     <ImageView
+                        android:id="@+id/aesir18"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/frigg"
-                        android:onClick="friggGod" />
+                        android:src="@drawable/frigg"
+                        />
                 </LinearLayout>
             </LinearLayout>
-
-            <com.google.android.gms.ads.AdView
-                android:id="@+id/adViewaesir"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                ads:adSize="SMART_BANNER"
-                ads:adUnitId="ca-app-pub-6014536128179477/1878724071">
-
-            </com.google.android.gms.ads.AdView>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

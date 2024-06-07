@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "117880665527",
+    "project_id": "aplikasi-mitolog",
+    "storage_bucket": "aplikasi-mitolog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117880665527:android:70c0f788673ca4a1cb6432",
+        "android_client_info": {
+          "package_name": "com.prlimited.mitologmesirbaru"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd4NnH_G39je98VzyRC_8uxqlE30rwLZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117880665527:android:bd7c2475702d38eacb6432",
+        "android_client_info": {
+          "package_name": "com.prlimited.mitolognordik"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd4NnH_G39je98VzyRC_8uxqlE30rwLZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117880665527:android:db67a0324e178da3cb6432",
+        "android_client_info": {
+          "package_name": "com.prlimited.mitologyunani"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd4NnH_G39je98VzyRC_8uxqlE30rwLZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -14,7 +14,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="20dp">
+            android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -26,30 +31,27 @@
                 android:gravity="center"
                 android:text="BORR"
                 android:textColor="#F7EDED"
-                android:textSize="30sp"
-                />
+                android:textSize="26sp" />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/borrlay">
             </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
                 android:textAlignment="viewStart"
-                android:text="Bor atau Bur adalah raksasa dewa purba. Dia adalah putra raksasa Buri. Dia kemungkinan lebih mirip dewa daripada raksasa. Bori menikahi raksasa es Bestla dan menjadi ayah dari tiga dewa Aesir pertama, yaitu Odin, Vili (Hoenir) dan Ve."
+                android:text="@string/bor"
                 android:textColor="#F7EDED"
                 android:textSize="17sp" />
         </LinearLayout>
     </ScrollView>
-
 </RelativeLayout>

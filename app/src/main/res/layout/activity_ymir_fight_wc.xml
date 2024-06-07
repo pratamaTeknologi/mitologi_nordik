@@ -14,9 +14,14 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"
             android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -28,32 +33,28 @@
                 android:gravity="center"
                 android:text="YMIR FIGHT"
                 android:textColor="#F7EDED"
-                android:textSize="30sp" />
+                android:textSize="26sp" />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="20dp"
-                android:src="@drawable/pertarungan_ymirlay"></ImageView>
+                android:layout_marginTop="20dp"
+                android:src="@drawable/pertarungan_ymirlay">
 
+            </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
-                android:text="Raksasa awal yang pertama dikenal sebagai Ymir (pengerang). Para raksasa es memanggilnya Aurgelmir (penyeru kerikil). Ymir adalah makhluk pertama yang tercipta di dunia. Ymir adalah leluhur bangsa raksasa es. Raksasa es lahir dari keringat di ketiaknya.
-\n\n
-Ymir adalah ayah dari raksasa bertangan enam tanpa nama yang memperoleh nutrisi oleh sapi raksasa bernama Audumla. Audumla sendiri memperoleh makanan dengan cara menjilati bebatuan. Bebatuan itu dijilati hingga membentuk manusia dan menjadi dewa awal yang bernama Buri. Buri adalah ayah dewa (atau raksasa) awal lainnya, yaitu Bor. Bor dan Bestla menjadi orang tua tiga dewa, yakni Odin, Vili dan Ve.
-\n\n
-Odin dan saudara-saudaranya, Vili dan Ve, membunuh Ymir. Mereka menggunakan tubuhnya untuk menciptakan dunia. tengkoraknya menjadi langit dan alisnya menjadi Midgard, tempat umat manusia. "
+                android:text="@string/ymirfight"
                 android:textAlignment="viewStart"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 

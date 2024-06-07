@@ -10,61 +10,53 @@
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="20dp">
-            <TextView
-                android:id="@+id/textView"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="50dp"
-                android:fontFamily="@font/viking"
-                android:gravity="center"
-                android:text="FREYA"
-                android:textColor="#F7EDED"
-                android:textSize="30sp"
-                />
-
-            <ImageView
-                android:layout_width="322dp"
-                android:layout_height="171dp"
                 android:layout_margin="20dp"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/freyalay">
-            </ImageView>
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="50dp"
+                    android:fontFamily="@font/viking"
+                    android:gravity="center"
+                    android:text="FREYA"
+                    android:textColor="#F7EDED"
+                    android:textSize="26sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="171dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/freyalay">
+
+                </ImageView>
+            </LinearLayout>
+
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
+                android:text="@string/freya"
                 android:textAlignment="viewStart"
-                android:text="Freya adalah salah satu dewi terkemuka dalam mitologi Nordik. Dia adalah anggota suku dewa Vanir , tetapi menjadi anggota kehormatan dewa Aesir setelah Perang Aesir-Vanir . Ayahnya adalah Njord . Ibunya tidak diketahui, tapi bisa jadi Nerthus . Frey adalah kakaknya. Suaminya, bernama Odr dalam literatur Old Norse , tentu saja tidak lain adalah Odin , dan, karenanya, Freya pada akhirnya identik dengan istri Odin Frigg.
-\n\n
-Freya terkenal karena kesukaannya akan cinta, kesuburan, kecantikan, dan harta benda yang bagus – dan, karena kegemaran ini, dia dianggap sebagai gadis pesta Aesir. Loki menuduh Freya  telah tidur dengan semua dewa dan elf , termasuk kakaknya.
-Dia tentu saja seorang pencari kesenangan dan sensasi yang penuh gairah, tetapi dia lebih dari itu .
-\n\n
-Freya adalah pola dasar dari völva , seorang praktisi seidr profesional atau semiprofesional , bentuk sihir Norse yang paling terorganisir . Dialah yang pertama kali membawa seni ini kepada para dewa, dan, dengan perluasan, untuk manusia juga. Mengingat keahliannya dalam mengendalikan dan memanipulasi keinginan, kesehatan, dan kemakmuran orang lain, dia adalah makhluk yang pengetahuan dan kekuatannya hampir tiada bandingannya.
-\n\n
-Freya memimpin alam akhirat Folkvang .dia memilih setengah dari prajurit yang terbunuh dalam pertempuran untuk tinggal di sana.
-\n\n
-Freya si Volva
-\n\n
-Seidr adalah bentuk sihir dan perdukunan Norse pra-Kristen yang melibatkan membedakan arah nasib dan bekerja dalam strukturnya untuk membawa perubahan, seringkali dengan secara simbolis menenun peristiwa baru menjadi ada. Kekuatan ini berpotensi digunakan untuk apa pun yang bisa dibayangkan, dan contoh-contoh yang mencakup hampir seluruh rentang kondisi manusia dapat ditemukan dalam literatur Norse Kuno.
-\n\n
-Di Zaman Viking, völva adalah seorang peramal dan penyihir keliling yang melakukan perjalanan dari kota ke kota melakukan tindakan seidr yang ditugaskan dengan imbalan penginapan, makanan, dan seringkali bentuk kompensasi lainnya juga. Seperti dukun Eurasia utara lainnya, status sosialnya sangat ambigu - dia secara bergantian ditinggikan, ditakuti, dirindukan, didamaikan, dirayakan, dan dicemooh.
-\n\n
-Freya menduduki peran ini di antara para dewa dinyatakan secara langsung dalam Ynglinga Saga , dan petunjuk tidak langsung dijatuhkan di tempat lain dalam Eddas dan saga. Misalnya, dalam satu kisah , bahwa Freya memiliki bulu elang yang memungkinkan pembawanya mengubah bentuknya menjadi elang.
-"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 

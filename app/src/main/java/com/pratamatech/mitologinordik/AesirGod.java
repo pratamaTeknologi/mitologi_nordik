@@ -8,122 +8,158 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.ImageView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
 public class AesirGod extends AppCompatActivity {
 
+    private ImageView aesir1,aesir2,aesir3,aesir4,aesir5,aesir6,aesir7,aesir8,aesir9,aesir10,aesir11,aesir12,aesir13,aesir14,aesir15,aesir16,aesir17,aesir18;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getSupportActionBar().hide();
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_aesir_god);
 
-        AdRequest adreq = new AdRequest.Builder().build();
-        AdView ad = findViewById(R.id.adViewaesir);
-        ad.loadAd(adreq);
+        initView();
+    }
 
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+    private void initView() {
+        aesir1 = findViewById(R.id.aesir1);
+        aesir2 = findViewById(R.id.aesir2);
+        aesir3 = findViewById(R.id.aesir3);
+        aesir4 = findViewById(R.id.aesir4);
+        aesir5 = findViewById(R.id.aesir5);
+        aesir6 = findViewById(R.id.aesir6);
+        aesir7 = findViewById(R.id.aesir7);
+        aesir8 = findViewById(R.id.aesir8);
+        aesir9 = findViewById(R.id.aesir9);
+        aesir10 = findViewById(R.id.aesir10);
+        aesir11 = findViewById(R.id.aesir11);
+        aesir12 = findViewById(R.id.aesir12);
+        aesir13 = findViewById(R.id.aesir13);
+        aesir14 = findViewById(R.id.aesir14);
+        aesir15 = findViewById(R.id.aesir15);
+        aesir16 = findViewById(R.id.aesir16);
+        aesir17 = findViewById(R.id.aesir17);
+        aesir18 = findViewById(R.id.aesir18);
+
+        aesir1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onInitializationComplete(@NonNull InitializationStatus initializationStatus) {
-
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, OdinAesir.class));
             }
         });
-    }
-
-    public void odinGod(View view) {
-        Intent odinlay = new Intent(AesirGod.this,OdinAesir.class);
-        startActivity(odinlay);
-    }
-
-    public void veGod(View view) {
-        Intent velay = new Intent(AesirGod.this,VeAesir.class);
-        startActivity(velay);
-    }
-
-    public void viliGod(View view) {
-        Intent vililay = new Intent(AesirGod.this,ViliAesir.class);
-        startActivity(vililay);
-    }
-
-    public void heimdalGod(View view) {
-        Intent heimdallay = new Intent(AesirGod.this, com.pratamatech.mitologinordik.HeimdalAesir.class);
-        startActivity(heimdallay);
-    }
-
-    public void thorGod(View view) {
-        Intent thorlay = new Intent(AesirGod.this,ThorAesir.class);
-        startActivity(thorlay);
-    }
-
-    public void valkrieGodd(View view) {
-        Intent valkrielay = new Intent(AesirGod.this,ValkrieAesir.class);
-        startActivity(valkrielay);
-    }
-
-    public void tyrGood(View view) {
-        Intent tyrlay = new Intent(AesirGod.this,TyrAesir.class);
-        startActivity(tyrlay);
-    }
-
-    public void lokiGod(View view) {
-        Intent lokilay = new Intent(AesirGod.this,LokiAesir.class);
-        startActivity(lokilay);
-    }
-
-    public void idunGood(View view) {
-        Intent idunlay = new Intent(AesirGod.this,IdunAesir.class);
-        startActivity(idunlay);
-    }
-
-    public void baldurGod(View view) {
-        Intent baldurlay = new Intent(AesirGod.this, com.pratamatech.mitologinordik.BaldurAesir.class);
-        startActivity(baldurlay);
-    }
-
-    public void borrGood(View view) {
-        Intent borrlay = new Intent(AesirGod.this,BorrAesir.class);
-        startActivity(borrlay);
-    }
-
-    public void bragiGod(View view) {
-        Intent bragilay = new Intent(AesirGod.this,BragiAesir.class);
-        startActivity(bragilay);
-    }
-
-    public void buriGod(View view) {
-        Intent burilay = new Intent(AesirGod.this,BuriAesir.class);
-        startActivity(burilay);
-    }
-
-    public void forsetiGood(View view) {
-        Intent forsetilay = new Intent(AesirGod.this,ForsetiAesir.class);
-        startActivity(forsetilay);
-    }
-
-    public void gefjunGod(View view) {
-        Intent gefjunlay = new Intent(AesirGod.this, com.pratamatech.mitologinordik.GefjunAesir.class);
-        startActivity(gefjunlay);
-    }
-
-    public void modimagniGod(View view) {
-        Intent mmlay = new Intent(AesirGod.this,Modi_magniAesir.class);
-        startActivity(mmlay);
-    }
-
-    public void siffGood(View view) {
-        Intent sifflay = new Intent(AesirGod.this,SiffAesir.class);
-        startActivity(sifflay);
-    }
-
-    public void friggGod(View view) {
-        Intent frigglay = new Intent(AesirGod.this,FriggAesir.class);
-        startActivity(frigglay);
+        aesir2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, VeAesir.class));
+            }
+        });
+        aesir3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, ViliAesir.class));
+            }
+        });
+        aesir4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, HeimdalAesir.class));
+            }
+        });
+        aesir5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, ThorAesir.class));
+            }
+        });
+        aesir6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, ValkrieAesir.class));
+            }
+        });
+        aesir7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, TyrAesir.class));
+            }
+        });
+        aesir8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, LokiAesir.class));
+            }
+        });
+        aesir9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, IdunAesir.class));
+            }
+        });
+        aesir10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, BaldurAesir.class));
+            }
+        });
+        aesir11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, BorrAesir.class));
+            }
+        });
+        aesir12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, BragiAesir.class));
+            }
+        });
+        aesir13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, BuriAesir.class));
+            }
+        });
+        aesir14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, ForsetiAesir.class));
+            }
+        });
+        aesir15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, GefjunAesir.class));
+            }
+        });
+        aesir16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, Modi_magniAesir.class));
+            }
+        });
+        aesir17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, SiffAesir.class));
+            }
+        });
+        aesir18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AesirGod.this, FriggAesir.class));
+            }
+        });
     }
 }

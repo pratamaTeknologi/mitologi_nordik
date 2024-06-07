@@ -58,20 +58,20 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/wc1"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/ginungagap"
-                        android:onClick="ginungagapwc" />
+                        android:src="@drawable/ginungagap" />
 
                     <ImageView
+                        android:id="@+id/wc2"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/audhumla"
-                        android:onClick="audhumlawc" />
+                        android:src="@drawable/audhumla" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -81,20 +81,20 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/wc3"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/ymirfight"
-                        android:onClick="ymirff" />
+                        android:src="@drawable/ymirfight" />
 
                     <ImageView
+                        android:id="@+id/wc4"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/surtr"
-                        android:onClick="surtr" />
+                        android:src="@drawable/surtr" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -104,20 +104,20 @@
                     android:orientation="horizontal">
 
                     <ImageView
+                        android:id="@+id/wc5"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/skoll_hati"
-                        android:onClick="skollhati" />
+                        android:src="@drawable/skoll_hati" />
 
                     <ImageView
+                        android:id="@+id/wc6"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/ash_elm"
-                        android:onClick="ashelm" />
+                        android:src="@drawable/ash_elm" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -128,12 +128,13 @@
                     android:layout_marginBottom="50dp">
 
                     <ImageView
+                        android:id="@+id/wc7"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_margin="10dp"
                         android:layout_weight="5"
-                        android:background="@drawable/dwaft"
-                        android:onClick="dwaft" />
+                        android:src="@drawable/dwaft"
+                        />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -143,15 +144,6 @@
                         android:visibility="invisible" />
                 </LinearLayout>
             </LinearLayout>
-            <com.google.android.gms.ads.AdView
-                android:id="@+id/adViewwc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                ads:adSize="SMART_BANNER"
-                ads:adUnitId="ca-app-pub-6014536128179477/5845017108">
-
-            </com.google.android.gms.ads.AdView>
         </LinearLayout>
     </ScrollView>
 

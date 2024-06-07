@@ -56,43 +56,20 @@
                     android:layout_marginTop="20dp">
 
                     <ImageView
+                        android:id="@+id/vanir1"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_weight="5"
                         android:layout_margin="10dp"
-                        android:background="@drawable/frey"
-                        android:onClick="freyGood"
+                        android:src="@drawable/frey"
                         />
                     <ImageView
+                        android:id="@+id/vanir2"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_weight="5"
                         android:layout_margin="10dp"
-                        android:background="@drawable/freya"
-                        android:onClick="freyaGod"
-                        />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="10dp">
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="140dp"
-                        android:layout_weight="5"
-                        android:layout_margin="10dp"
-                        android:background="@drawable/gullveig"
-                        android:onClick="gullGood"
-                        />
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="140dp"
-                        android:layout_weight="5"
-                        android:layout_margin="10dp"
-                        android:background="@drawable/nerthus"
-                        android:onClick="nerthusGood"
+                        android:src="@drawable/freya"
                         />
                 </LinearLayout>
                 <LinearLayout
@@ -102,32 +79,54 @@
                     android:layout_marginTop="10dp">
 
                     <ImageView
+                        android:id="@+id/vanir3"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_weight="5"
                         android:layout_margin="10dp"
-                        android:background="@drawable/njord"
-                        android:onClick="njordGood"
+                        android:src="@drawable/gullveig"
                         />
                     <ImageView
+                        android:id="@+id/vanir4"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_weight="5"
                         android:layout_margin="10dp"
-                        android:background="@drawable/odr"
-                        android:onClick="odrGod"/>
+                        android:src="@drawable/nerthus"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/vanir5"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_weight="5"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/njord"
+                        />
+                    <ImageView
+                        android:id="@+id/vanir6"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_weight="5"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/odr"
+                        />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adViewvanir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <com.applovin.mediation.ads.MaxAdView xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        android:id="@+id/adBannerLovin"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
         android:layout_alignParentBottom="true"
-        ads:adSize="SMART_BANNER"
-        ads:adUnitId="ca-app-pub-6014536128179477/4767861891">
-    </com.google.android.gms.ads.AdView>
+        maxads:adUnitId="7cbb21544a850b69" />
 
 
 </RelativeLayout>

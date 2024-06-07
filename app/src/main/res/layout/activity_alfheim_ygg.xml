@@ -10,48 +10,52 @@
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="20dp">
-            <TextView
-                android:id="@+id/textView"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="50dp"
-                android:fontFamily="@font/viking"
-                android:gravity="center"
-                android:text="ALFHEIM"
-                android:textColor="#F7EDED"
-                android:textSize="30sp"
-                />
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/viking"
+                    android:gravity="center"
+                    android:text="ALFHEIM"
+                    android:textColor="#F7EDED"
+                    android:textSize="26sp" />
+
+            </LinearLayout>
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
-                android:layout_margin="20dp"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
                 android:src="@drawable/alfheimlay">
+
             </ImageView>
 
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
-                android:layout_marginBottom="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
                 android:fontFamily="@font/nunito_sans_semibold"
-                android:text="Alfheim adalah tempat yang paling dekat dengan Asgard. Wilayah ini dihuni oleh peri cahaya dan diyakini sebagai makhluk yang paling indah.
-\n\n
-Peri cahaya adalah dewa alam yang memberikan kesuburan dan terkadang juga membantu para manusia. Mereka juga seringkali memberikan inspirasi lewat seni dan musik.Dewa Vanir Freyr dikatakan sebagai penguasa Alfheim."
+                android:text="@string/alfheim"
                 android:textAlignment="viewStart"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 

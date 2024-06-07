@@ -4,14 +4,14 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.pratamatech.mitologinordik"
+        applicationId "com.prlimited.mitolognordik"
         minSdk 21
-        targetSdk 32
-        versionCode 1
-        versionName "1.1"
+        targetSdk 33
+        versionCode 5
+        versionName "1.4"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -33,9 +33,22 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'com.google.firebase:firebase-messaging:23.1.2'
-    implementation 'com.google.android.gms:play-services-ads:22.0.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //iklan
+    implementation 'com.google.android.gms:play-services-ads:22.2.0'
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-runtime:2.5.1"
+    implementation 'androidx.lifecycle:lifecycle-process:2.5.1'
+    implementation 'com.applovin:applovin-sdk:11.11.1'
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.5.1"
+
+
+    //pihak ketiga
+    implementation platform('com.google.firebase:firebase-bom:32.2.2')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.onesignal:OneSignal:[5.0.0, 5.99.99]'
 }

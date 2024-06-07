@@ -14,7 +14,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="20dp">
+            android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -30,46 +35,24 @@
                 />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/lokilay">
             </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
                 android:textAlignment="viewStart"
-                android:text="Dewa penipu besar dari  jajaran Norse , Loki adalah dewa licik yang dikenal karena banyak skema dan tipuannya. Sebagai pengubah bentuk, bentuk Loki sangat beragam seperti motif kenakalannya, termasuk kekayaan, wanita, kebijaksanaan, dan kesenangan semata dari kelicikannya. Dengan Loki, penampilan tidak pernah seperti yang terlihat. Sementara kejenakaan Loki sering melibatkan para dewa dalam situasi sulit, triknya sering menyelamatkan mereka dari masa-masa sulit juga.
-\n\n
-Seorang anggota suku dewa Aesir, Loki—bersama dengan  Odin ,  Thor , dan  Freya —merupakan salah satu dari empat dewa penguasa pemikiran Norse. Meskipun mitologinya secara konsisten tumpang tindih dengan rekan-rekan ilahinya, Loki berbeda dari mereka dalam hal-hal penting. Di mana Thor, Freya, dan bahkan Odin (seorang penipu sendiri) berusaha keras untuk memaksakan tatanan yang benar di antara para dewa, perilaku Loki yang tidak menentu membuat sifat kesetiaannya dipertanyakan. Misalnya, diprediksi bahwa selama Ragnarök Loki akan bertarung di sisi jötnar melawan para dewa.
-\n\n
-Sebenarnya, Loki tidak mendukung atau melawan para dewa. Seperti tokoh-tokoh penipu dari mitologi lain, dia tidak baik atau jahat, malah memilih untuk menjadi partisan kekacauan itu sendiri, sosok yang menguji batas-batas dan menantang konvensi. Ketidakkonsistenannya yang kacau mengingatkan orang percaya bahwa batas antara yang baik dan yang jahat jauh lebih renggang daripada yang mereka duga.
-Misalnya, dalam kisah Penculikan Idun , Loki, karena kecerobohannya, berakhir di tangan raksasa yang marah, Thiazi, yang mengancam akan membunuh Loki kecuali dia membawa dewi Idun untuknya . Loki mematuhi untuk menyelamatkan hidupnya, dan kemudian menemukan dirinya dalam posisi canggung karena para dewa mengancamnya dengan kematian kecuali dia menyelamatkan Idun. Dia menyetujui permintaan ini untuk motif dasar yang sama, mengubah bentuknya menjadi elang dan membawa sang dewi kembali ke Asgard .di cakarnya. Thiazi mengejarnya dengan putus asa dalam bentuk elang, tetapi, hampir menyusul Loki saat dia mendekati tujuannya, para dewa menyalakan api di sekeliling benteng mereka. Api menangkap Thiazi dan membakarnya sampai mati, sementara Idun dan Loki mencapai aula para dewa dengan selamat. Loki akhirnya datang untuk membantu para dewa, tetapi hanya untuk memperbaiki bencana yang menjadi tanggung jawabnya sendiri.
-\n\n
-Setelah kematian Thiazi, putri raksasa, Skadi , tiba di Asgard menuntut ganti rugi atas pembunuhan ayahnya. Salah satu tuntutannya adalah agar para dewa membuatnya tertawa, sesuatu yang hanya bisa dilakukan oleh Loki. Untuk mencapai hal ini, ia mengikat salah satu ujung tali ke janggut kambing dan ujung lainnya ke buah zakarnya. Baik dia maupun kambingnya berkoak dan memekik saat yang satu menarik ke satu arah dan yang lain menarik ke arah lain. Akhirnya dia jatuh di pangkuan Skadi, dan raksasa perempuan itu tidak bisa menahan tawa pada tontonan yang tidak masuk akal itu. Di sini, Loki sekali lagi datang untuk membantu para dewa, tetapi hanya dengan menjadi konyol dan aneh, bukan dengan mencapai prestasi apa pun yang menurut Skandinavia Viking Age akan sangat terhormat.
-\n\n
-Loki secara bergantian membantu para dewa dan raksasa, tergantung pada tindakan mana yang paling menyenangkan dan menguntungkan baginya saat itu. Selama Ragnarok, ketika para dewa dan raksasa terlibat dalam perjuangan pamungkas mereka dan kosmos dihancurkan, Loki bergabung dalam pertempuran di pihak para raksasa.  dia bahkan menjadi kapten kapal Naglfar, Kapal Paku, yang membawa banyak raksasa ke pertempuran mereka dengan para dewa. Ketika pertempuran untuk dunia terjadi, dia dan dewa Heimdall saling melukai satu sama lain.
-\n\n
-Atribut utama Loki adalah kecerdasan dan kelicikannya. Dia jarang terlibat dalam pertempuran fisik, dan karena itu tidak membawa senjata. Dia juga tidak memiliki pesona, pakaian, atau kendaraan yang terbukti dengan baik.  Loki memiliki sepasang sepatu ajaib—Loki membawa sepatu yang digunakannya untuk berlari di udara dan di atas air. Pada satu kesempatan, dia meminjam jubah elang ajaib milik Freya, meskipun dia mengembalikannya tidak lama kemudian. Terlepas dari kurangnya perlengkapan pribadinya, Loki memiliki peran yang luar biasa menonjol dalam pengadaannya untuk dewa-dewa lain.
-\n\n
-Loki adalah pengubah bentuk terkemuka di antara para dewa. Dalam berbagai kesempatan, ia mengambil bentuk ikan salmon, kutu, lalat, dan kuda betina. Dia juga mengambil bentuk manusia, seperti seorang wanita tua bernama Thökk yang menolak untuk menangisi Baldur yang jatuh.
-\n\n
-Loki mungkin paling dikenal karena peran jahatnya dalam The Death of Baldur . Setelah kematian dewa tercinta Baldur dinubuatkan, ibu Baldur, Frigg , mendapatkan janji dari setiap makhluk hidup untuk tidak menyakiti putranya. Yah, hampir semuanya – tidak ada sumpah seperti itu yang diperoleh dari mistletoe, yang menurut para dewa terlalu kecil dan aman untuk menyakiti Baldur. Setelah menemukan kelalaian ini, Loki mengukir tombak mistletoe, meletakkannya di tangan dewa buta Hod, dan memerintahkannya untuk melemparkannya ke Baldur. Hod, tidak mengetahui asal senjata, mematuhi, dan Baldur tertusuk dan mati. Dewa Hermodmengendarai Sleipnir ke dunia bawah dan memohon Hel untuk melepaskan Baldur, menunjukkan betapa dicintainya dia oleh semua makhluk hidup. Hel menjawab bahwa jika memang demikian, maka seharusnya tidak sulit untuk memaksa setiap makhluk di dunia untuk menangisi Baldur, dan, jika ini terjadi, dewa yang mati akan dibebaskan dari kubur. Setiap makhluk hidup memang menangis untuk kembalinya Baldur, dengan satu pengecualian: raksasa berhati beku bernama Tokk ( ökk , Terima kasih), yang hampir pasti adalah Loki yang menyamar. Jadi Baldur harus tetap bersama Hel.
-\n\n
-Untuk banyak kejahatannya terhadap mereka, para dewa akhirnya menempa rantai dari isi perut putra Loki, Narfi dan mengikatnya ke tiga batu di dalam gua. Seekor ular berbisa duduk di atasnya, meneteskan racun ke tubuhnya. Istri Loki yang tampaknya sangat setia dan penyayang, Sigyn, duduk di sampingnya dengan mangkuk untuk menangkap racunnya. Tetapi ketika mangkuk itu penuh, tentu saja, dia harus meninggalkan sisi suaminya untuk menuangkannya. Ketika ini terjadi, tetesan racun yang jatuh ke tubuhnya menyebabkan dia menggeliat kesakitan, dan kejang-kejang ini menciptakan gempa bumi. Dan dalam keadaan ini dia berbaring sampai membebaskan diri di Ragnarok.
-
-"
+                android:text="@string/loki"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
-
-
 </RelativeLayout>

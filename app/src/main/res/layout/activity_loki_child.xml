@@ -54,20 +54,20 @@
                     android:layout_marginTop="20dp">
 
                     <ImageView
+                        android:id="@+id/lc1"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_weight="5"
                         android:layout_margin="10dp"
-                        android:background="@drawable/loki"
-                        android:onClick="lokiGod"
+                        android:src="@drawable/loki"
                         />
                     <ImageView
+                        android:id="@+id/lc2"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_weight="5"
                         android:layout_margin="10dp"
-                        android:background="@drawable/fenrir"
-                        android:onClick="fenrirlo"
+                        android:src="@drawable/fenrir"
                         />
                 </LinearLayout>
                 <LinearLayout
@@ -77,33 +77,29 @@
                     android:layout_marginTop="10dp">
 
                     <ImageView
+                        android:id="@+id/lc3"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_weight="5"
                         android:layout_margin="10dp"
-                        android:background="@drawable/jormungand"
-                        android:onClick="jormung"
+                        android:src="@drawable/jormungand"
                         />
                     <ImageView
+                        android:id="@+id/lc4"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_weight="5"
                         android:layout_margin="10dp"
-                        android:background="@drawable/hel"
-                        android:onClick="hell"
+                        android:src="@drawable/hel"
                         />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
-
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adViewloki"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <com.applovin.mediation.ads.MaxAdView xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        android:id="@+id/adBannerLovin"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
         android:layout_alignParentBottom="true"
-        ads:adSize="SMART_BANNER"
-        ads:adUnitId="ca-app-pub-6014536128179477/5454257602">
-    </com.google.android.gms.ads.AdView>
-
+        maxads:adUnitId="7cbb21544a850b69" />
 </RelativeLayout>

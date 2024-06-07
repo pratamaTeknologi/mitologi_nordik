@@ -14,7 +14,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="20dp">
+            android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -26,35 +31,27 @@
                 android:gravity="center"
                 android:text="MIDGARD"
                 android:textColor="#F7EDED"
-                android:textSize="30sp"
-                />
+                android:textSize="26sp" />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
-                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/midgardlay">
             </ImageView>
+        </LinearLayout>
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
                 android:textAlignment="viewStart"
-                android:text="Midgard, rumah para manusia berada di pusat dunia dan tepat berada dibawa Asgard. Midgard dan Asgard dihubungkan oleh jembatan pelangi bernama Bifrost. Midgard juga dikelilingi oleh lautan yang sangat luas.
-\n\n
-Dalam mitologi Nordik, manusia yang pertama kali tinggal di Midgard adalah Ask dan Embla, mereka diciptakan dari pohon oleh Odin dan dua saudaranya setelah mengalahkan Ymir. Odin tahu bahwa manusia sangat lemah dibandingkan dewa, oleh karena itu ia membuat lautan yang luas di mana pada laut tersebut terdapat ular raksasa yang melindungi para manusia.
-\n\n
-Nama Midgard (Middle Enclosure) memiliki arti ganda. Arti pertama dari kata tersebut mengacu pada posisi peradaban di tengah dunia yang sebaliknya liar(jotunheim), yang tercermin pada bidang kosmologis oleh Midgard yang dikelilingi oleh hutan belantara Jotunheim yang tidak berpenghuni , dunia raksasa yang sering bermusuhan . Ini mirip dengan cara benua dikelilingi oleh lautan.
-\n\n
-Ular Jormungand hidup di laut dan mengelilingi Midgard terestrial dan hutan belantara di perbatasannya, dan Aegir dan Rantinggal di kedalaman perairan yang sama dan merenggut nyawa pelaut yang malang.  Sumbu vertikal ini diwakili oleh pohon dunia Yggdrasil , yang memegang Asgard di cabang atasnya, Midgard di pangkal batangnya, dan dunia bawah di antara akarnya."
+                android:text="@string/midgard"
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 

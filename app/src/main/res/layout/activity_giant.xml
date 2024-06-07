@@ -54,43 +54,20 @@
                     android:layout_marginTop="20dp">
 
                     <ImageView
+                        android:id="@+id/giant1"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_weight="5"
                         android:layout_margin="10dp"
-                        android:background="@drawable/ymir"
-                        android:onClick="ymirgian"
+                        android:src="@drawable/ymir"
                         />
                     <ImageView
+                        android:id="@+id/giant2"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_weight="5"
                         android:layout_margin="10dp"
-                        android:background="@drawable/skadi"
-                        android:onClick="skadigian"
-                        />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="10dp">
-
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="140dp"
-                        android:layout_weight="5"
-                        android:layout_margin="10dp"
-                        android:background="@drawable/nott"
-                        android:onClick="nottgian"
-                        />
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="140dp"
-                        android:layout_weight="5"
-                        android:layout_margin="10dp"
-                        android:background="@drawable/dagr"
-                        android:onClick="dagrgian"
+                        android:src="@drawable/skadi"
                         />
                 </LinearLayout>
                 <LinearLayout
@@ -100,33 +77,57 @@
                     android:layout_marginTop="10dp">
 
                     <ImageView
+                        android:id="@+id/giant3"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_weight="5"
                         android:layout_margin="10dp"
-                        android:background="@drawable/gamr"
-                        android:onClick="gamrgian"
+                        android:src="@drawable/nott"
                         />
                     <ImageView
+                        android:id="@+id/giant4"
                         android:layout_width="0dp"
                         android:layout_height="140dp"
                         android:layout_weight="5"
                         android:layout_margin="10dp"
-                        android:background="@drawable/bestla"
-                        android:onClick="bestla"/>
+                        android:src="@drawable/dagr"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/giant5"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_weight="5"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/gamr"
+                        />
+                    <ImageView
+                        android:id="@+id/giant6"
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_weight="5"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/bestla"
+                       />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adViewgiant"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        ads:adSize="SMART_BANNER"
-        ads:adUnitId="ca-app-pub-6014536128179477/3579452040">
-    </com.google.android.gms.ads.AdView>
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        android:id="@+id/adViewgiant"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        ads:adSize="SMART_BANNER"-->
+<!--        ads:adUnitId="ca-app-pub-6014536128179477/2034589323">-->
+<!--    </com.google.android.gms.ads.AdView>-->
 
 </RelativeLayout>
 

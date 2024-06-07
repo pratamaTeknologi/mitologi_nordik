@@ -14,16 +14,15 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TENTANG APLIKASI"
-            android:textSize="20sp"
+            android:text="@string/ttgaplikasi"
+            android:textSize="18sp"
             android:fontFamily="@font/nunito_sans_semibold"
             android:textColor="@color/white"/>
         <TextView
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sebelum orang Norse (alias Viking jermanik) memeluk agama Kristen selama Abad Pertengahan, mereka memiliki agama pagan asli yang semarak yang sama indahnya dengan lanskap Nordik yang terkait erat dengannya. Inti dari agama itu adalah apa yang sekarang kita sebut “mitologi Nordik:” kumpulan cerita religius yang memberi makna pada kehidupan Viking. Mitos ini berkisah tentang dewa dan dewi.dan di aplikasi ini kami merangkumnya dan memberikan informasi tentang dewa dewi nordik yang dikemas secara ringkas dan mudah dipahami, yang berasal dari sumber sumber norse kuno.
-    "
+            android:text="@string/tentang"
             android:textSize="12sp"
             android:fontFamily="@font/nunito_sans_semibold_italic"
             android:textColor="@color/white"/>
@@ -31,8 +30,8 @@
             android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="APLIKASI LAINNYA"
-            android:textSize="18sp"
+            android:text="@string/aplikasilain"
+            android:textSize="16sp"
             android:fontFamily="@font/nunito_sans_semibold"
             android:textColor="@color/white"/>
     </LinearLayout>
@@ -78,12 +77,12 @@
             android:id="@+id/kontak"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Created by Pratama app\npratamatech500@gmail.com\n088806776824"
-            android:textSize="16sp"
+            android:text="Created by Pratama app\npratamatech500@gmail.com"
+            android:textSize="14sp"
             android:textAlignment="center"
             android:fontFamily="@font/nunito_sans_semibold"
             android:textColor="@color/white"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="0dp"/>
     </LinearLayout>
 
 </LinearLayout>

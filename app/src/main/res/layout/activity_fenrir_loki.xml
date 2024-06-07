@@ -10,11 +10,18 @@
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="20dp">
+            android:layout_margin="20dp">
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -26,39 +33,29 @@
                 android:gravity="center"
                 android:text="FENRIR"
                 android:textColor="#F7EDED"
-                android:textSize="30sp"
-                />
+                android:textSize="26sp" />
 
             <ImageView
-                android:layout_width="322dp"
+                android:layout_width="wrap_content"
                 android:layout_height="171dp"
-                android:layout_margin="20dp"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
                 android:src="@drawable/fenrirlay">
+
             </ImageView>
+        </LinearLayout>
+
             <TextView
                 android:id="@+id/texContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="80dp"
                 android:fontFamily="@font/nunito_sans_semibold"
+                android:text="@string/fenrir"
                 android:textAlignment="viewStart"
-                android:text="Fenrir adalah serigala raksasa anak Loki dan raksasa Angerboda. Nama lain Fenrir adalah Fenris, Fenrisúlfr, dan Vanargand (tongkat harapan).
-\n\n
-Fenrir tumbuh menjadi sangat besar dengan sangat cepat sehingga para dewa menjadi takut. Para dewa berpura-pura memainkan permainan untuk mengikat serigala itu, untuk mencari tahu apakah Fenrir dapat membebaskan diri. Fenrir setuju untuk ikut bermain jika ada yang bersedia meletakakn tangan di mulutnya. Hanya dewa perang, Tyr, yang berani untuk meletakkan tangannya di mulut Fenrir.
-\n\n
-Para dewa mendapati bahwa tidak ada benda yang dapat mengikat Fenrir, sampai mereka memperoleh pita perak sakti yang disebut Gleipnir, dibuat oleh para kurcaci. Pita ini dibuat dari suara langkah kucing, janggut wanita, nafas ikan, dan ludah burung. Ketika Fenrir dia tidak dapat melepaskan diri dari ikatan ini, dia pun sadar bahwa dia telah ditipu. Sebagai balasannya, Fenrir menggigit tangan Tyr hingga putus. Karena itulah Tyr dikenal sebagai Dewa Bertangan Satu.
-\n\n
-Ketika Ragnarok dimulai, Fenrir berhasil bebas dari belenggunya. Dia lalu bergabung dengan para raksasa dan monster lainnya dalam perang melawan para dewa. Fenrir bertarung melawan Odin. Dia berhasil membunuh dan memakan Odin. Vidar, putra Odin, marah dan membalas kematian ayahnya dengan cara merobek rahang Fenrir dengan tangan kosong.
-\n\n
-Menurut Voluspa, Fenrir orang tua dari serigala raksasa lainnya, yaitu Moongarm, yang merupakan serigala yang menelan bulan dalam Ragnarok. Ibu Moongram adalah troll wanita yang tinggal di Hutan Besi, yang disebut Iarnvidiur. "
                 android:textColor="#F7EDED"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
-
-
 </RelativeLayout>

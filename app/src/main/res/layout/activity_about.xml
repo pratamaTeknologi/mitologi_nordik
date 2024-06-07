@@ -27,15 +27,4 @@
             android:textColor="@color/white"
             android:textSize="15sp" />
     </LinearLayout>
-
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adViewabout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        ads:adSize="SMART_BANNER"
-        ads:adUnitId="ca-app-pub-6014536128179477/5454257602">
-    </com.google.android.gms.ads.AdView>
-
-
 </RelativeLayout>
