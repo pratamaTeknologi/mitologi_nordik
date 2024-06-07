@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelheimYGG"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="HELHEIM"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/helheimlay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="Helheim adalah tempat tersuram yang ada dalam mitologi Nordik. Tempat ini adalah tempat para pencuri, pembunuh dan orang-orang yang dianggap tidak terhormat menjalani kehidupan setelah kematian.
+\n\n
+Tempat ini dipimpin oleh Hel. Siapa pun yang tiba di tempat ini tidak akan pernah merasakan sukacita maupun kebahagiaan lagi. Walaupun begitu, dalam peristiwa Ragnarok nanti Hel akan menggunakan semua orang mati ini untuk menyerang Asgard dan akan menjadi akhir dari dunia.
+\n\n
+Catatan khas lainnya adalah perjalanan Hermod ke Hel untuk mencoba mengambil Baldur , yang telah dibunuh oleh Loki . Sementara akun tersebut berasal secara eksklusif dari Snorri, itu cukup cocok dengan bagian lain dari genre narasi perjalanan bawah tanah ini, baik dalam bentuk keseluruhannya maupun dalam detail kecil, sehingga kita dapat yakin bahwa Snorri mengandalkan sumber yang lebih tua atau sumber yang sekarang hilang. untuk kita. Bagian yang relevan dari cerita berjalan seperti ini:
+\n\n
+Dewa Hermod berangkat dari Asgard , benteng surgawi para dewa, di Sleipnir , kuda Odin . Dia menuruni batang Yggdrasil , pohon besar yang membentuk poros pusat kosmos. Selama sembilan malam, dia berkendara melewati lembah yang dalam, sangat gelap gulita sehingga dia tidak bisa melihat jalan. Akhirnya, dia sampai di sebuah sungai, Gjöll (Kebisingan Keras ), yang dibentangkan oleh sebuah jembatan bernama Gjallarbrú. Di jembatan berdiri seorang raksasa, Móðguðr . Penjaga jembatan ingin tahu mengapa Hermod ingin menyeberang, karena dia tahu dari penampilannya bahwa dia belum mati. Jawabannya, bahwa dia akan menjaga Baldur, ternyata memuaskan sang raksasa, yang membiarkannya menyeberang, mengatakan kepadanya bahwa Hel berbaring ke bawah dan ke utara ( niðr ok norðr ) dari jembatan. Ketika Hermod tiba di pagar di sekitar Hel, dia melompati pagar itu daripada melewati gerbang. Dia kemudian berjalan menuju aula Hel (dewi), di mana dia menemukan Baldur duduk di kursi kehormatan."
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

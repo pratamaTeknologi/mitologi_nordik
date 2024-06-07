@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NiflheimYGG"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="NIFLHEIM"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/niflheimlay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="Niflheim adalah wilayah tergelap dan terdingin di dunia menurut mitologi Nordik. Niflheim berada di wilayah utara Ginnungagap.tanah air dari kegelapan purba, dingin, kabut, dan es, Di sana juga terdapat sumur tertua yang bernama Hvergelmir yang dilindungi oleh naga besar bernama Nidhug.
+\n\n
+Konon katanya, sumur tersebut adalah asal dari semua yang hidup dan tempat dimana setiap makhluk hidup akan kembali. Walaupun begitu, di Niflheim tidak ada makhluk hidup yang dapat tinggal di tempat tersebut karena tidak ada yang dapat menahan hawa dingin Niflheim.
+\n\n
+makhluk pertama, raksasa Ymir , lahir ketika es dari Niflheim dan api dari Muspelheim bertemu di tengah Ginnungagap , jurang yang dulu memisahkan mereka."
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

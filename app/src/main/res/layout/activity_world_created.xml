@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".WorldCreated"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/viking"
+                    android:text="WORLD CREATED"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_sans_semibold_italic"
+                    android:text="( penciptaan dunia )"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="25dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:background="@drawable/ginungagap"
+                        android:onClick="ginungagapwc" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:background="@drawable/audhumla"
+                        android:onClick="audhumlawc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:background="@drawable/ymirfight"
+                        android:onClick="ymirff" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:background="@drawable/surtr"
+                        android:onClick="surtr" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:background="@drawable/skoll_hati"
+                        android:onClick="skollhati" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:background="@drawable/ash_elm"
+                        android:onClick="ashelm" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="50dp">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:background="@drawable/dwaft"
+                        android:onClick="dwaft" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="140dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="5"
+                        android:visibility="invisible" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adViewwc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="ca-app-pub-6014536128179477/5845017108">
+
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

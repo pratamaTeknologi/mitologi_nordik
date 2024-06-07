@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForsetiAesir"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="FORSETI"
+                android:textColor="#F7EDED"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:src="@drawable/forsetilay"></ImageView>
+
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:text="Forseti adalah putra Baldr dan istrinya Nanna,keahlian Forseti adalah mediasi dan hukum.
+\n\n
+Dia menjadi inspirasi untuk ‘pembicara hukum’, atau logsogumaor di Nordik Kuno, yang merupakang kepala ping, atau majelis hakim Skandinavia.
+Pembicara hukum bertindak sebagai hakim dan memutuskan putusan perselisihan sesuai dengan hukum.
+\n\n
+Dia memutuskan baik perselisihan antara para dewa maupun perselisihan berduri di antara manusia.
+\n\n
+Tidak ada orang yang datang kepadanya untuk keadilan, pulang dengan tidak puas.
+\n\n
+Aulanya disebut Glitnir atau bersinar karena atap perak dan pilar emasnya memancarkan cahaya sejauh bermil-mil.
+Simbolnya adalah kapak emas yang dibawanya."
+                android:textAlignment="viewStart"
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

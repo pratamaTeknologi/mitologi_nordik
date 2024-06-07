@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IdunAesir"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="IDUN"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/idunlay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="Idun yang cantik dan mempesona adalah dewi kemudaan dan kesuburan Norse. Dia memegang peran kunci dalam mitos Nordik, meremajakan para dewa dengan memberi mereka apel ajaib yang membalikkan efek penuaan. Dia membawa apelnya dalam kotak yang terbuat dari abu yang disebut  eski —bersama dengan buahnya, kotak ini berfungsi sebagai salah satu simbol utamanya. Dia menikah dengan Bragi, seorang  skald  (penyair/penyair) yang meriwayatkan bagian dari  Lokasenna , dari  Poetic Edda , dan  Skáldskaparmál  dari  Prosa Edda .
+\n\n
+Idun memegang kekuasaan untuk memberikan pemuda abadi dan mencegah usia tua. Apel ajaibnya memberikan karunia awet muda kepada mereka yang memakannya. Setiap kali para dewa Norse mulai merasakan efek penuaan, Idun akan meremajakan mereka dengan apelnya.
+\n\n
+Tradisi mitis Idun berada hampir secara eksklusif dalam kisah penculikannya oleh raksasa Thjazi yang berubah bentuk. Suatu hari,  Odin , Hoenir, dan  Loki  melakukan perjalanan di daerah pegunungan Asgard. Ketika pengelana yang kelaparan bertemu dengan sekawanan lembu, mereka menyembelih seekor lembu dan mencoba memasaknya. Namun, setiap kali mereka mencoba, elang yang berbicara menggunakan sihir untuk mencegah api memanaskan daging yang berair. Burung itu memberi tahu para dewa bahwa jika ia tidak menerima bagiannya sendiri, tidak ada yang akan makan. Para dewa setuju untuk berbagi makanan mereka, dan burung itu terbang ke bawah untuk bergabung dengan mereka.
+\n\n
+Ketika elang itu cukup dekat untuk disentuh, Loki mengambil sebatang cabang dan berusaha untuk menyerangnya. Namun, Loki terlalu lambat, dan burung itu menangkap cabang (yang masih dipegang Loki) dengan cakarnya dan terbang menjauh. Ketika Loki memohon untuk dibebaskan, elang itu mengungkapkan dirinya sebagai Thjazi raksasa dan menuntut agar Idun dan apel ajaibnya dibawa kepadanya. Loki setuju untuk mengambilnya kembali, dan raksasa yang berubah menjadi elang mengembalikannya dengan selamat ke tanah.
+\n\n
+Ketika Loki kembali ke rumah, dia memikat Idun ke dalam hutan yang gelap dengan mengatakan padanya bahwa itu adalah lokasi buah langka dan berharga. Namun, alih-alih buah, Idun menemukan Thjazi menunggu dalam wujud elangnya. Raksasa itu menangkap dewi muda itu dan terbang bersamanya ke rumahnya di Jotunheimr.
+\n\n
+Tanpa kekuatan pemulihan dari apel,  dewa-dewa Norse menjadi  layu dan menjadi tua: Tetapi sir menjadi kaku pada hilangnya Idunn, dan dengan cepat mereka menjadi tua dan tua,  tulis Skáldskaparmál  . 1  Loki adalah dewa terakhir yang terlihat bersama Idun, dan para dewa mulai mempertanyakan dan mengancamnya untuk mendapatkan informasi. Saat ancaman mereka meningkat, Loki memberi tahu mereka bahwa jika mereka melepaskannya dan meminjamkan jubah elang Freya , dia akan terbang dan kembali dengan dewi yang diculik.
+\n\n
+Dengan jubah di tangan, Loki terbang ke Jotunheimr di mana dia menemukan Idun sendirian di aula Thjazi. Dia mengubahnya menjadi bentuk kacang dan terbang bersamanya. Thjazi dengan cepat menemukan penipuan Loki, dan mengejar para dewa yang melarikan diri ke gerbang Asgard . Ketika para dewa lain melihat Loki kembali, mereka membuat api besar yang mencapai langit. Loki menjauh dari api pada saat terakhir, tapi Thjazi tidak seberuntung itu. Elang raksasa itu meluncur ke dalam neraka sebelum jatuh ke tanah seperti sekam yang terbakar. “Kemudian sir sudah dekat dan membunuh Thjazi, raksasa di dalam Gerbang sir, dan pembunuhan itu sangat terkenal."
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

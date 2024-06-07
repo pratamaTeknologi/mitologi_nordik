@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MimirYGG"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="MIMIR"
+                android:textColor="#F7EDED"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:src="@drawable/mimirlay"></ImageView>
+
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:text="Mímir , (The Rememberer) adalah makhluk yang sangat bijaksana dan penasihat para dewa. tidak mungkin untuk mengatakan apakah dia dianggap sebagai dewa Aesir atau raksasa .
+\n\n
+Rumah Mimir tampaknya adalah sebuah sumur yang disebut Mímisbrunnr , yang mungkin identik dengan Sumur Urd .Odin mengorbankan mata untuk Mimir dengan imbalan minuman dari sumur Mimir agar dapat melihat masa depan.
+\n\n
+Mimir dibunuh dan dipenggal oleh Vanir selama Perang Aesir-Vanir . Setelah melihat kepala yang terpenggal, Odin mengawetkannya dengan ramuan khusus dan menyanyikan lagu-lagu ajaib untuk mengawetkannya. Dia berkonsultasi dengan kepala pada saat dibutuhkan, dan terus memberikan nasihat yang tak tertandingi."
+                android:textAlignment="viewStart"
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

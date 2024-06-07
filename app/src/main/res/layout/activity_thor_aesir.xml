@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThorAesir"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="THOR"
+                android:textColor="#F7EDED"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:src="@drawable/thorlay"></ImageView>
+
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:text="Thor adalah salah satu tokoh paling menonjol dalam mitologi Nordik. Dia adalah dewa utama meskipun dia mencapai puncak popularitasnya di antara orang-orang Skandinavia pada akhir Zaman Viking.
+\n\n
+Thor, dewa guntur yang berotot, adalah arketipe prajurit yang setia dan terhormat, cita-cita yang dicita-citakan oleh prajurit manusia biasa. Dia adalah pembela tak kenal lelah para dewa Aesir dan benteng mereka, Asgard , dari gangguan para raksasa.
+Tidak ada yang lebih cocok untuk tugas ini selain Thor. Keberanian dan rasa kewajibannya tak tergoyahkan, dan kekuatan fisiknya hampir tak tertandingi. Dia bahkan memiliki sabuk kekuatan yang tidak disebutkan namanya ( Megingjarðar Norse Kuno ) yang membuat kekuatannya berlipat ganda ketika dia memakai sabuk itu. Namun, miliknya yang paling terkenal adalah palunya, Mjöllnir. Jarang sekali dia pergi ke mana pun tanpanya. Bagi orang-orang kafir Skandinavia, sama seperti guntur adalah perwujudan dari Thor, kilat adalah perwujudan dari palunya yang membunuh raksasa saat ia berkuda melintasi langit dengan kereta yang ditarik kambing. (Tentu saja, mereka tidak percaya dia secara fisik mengendarai kereta yang ditarik oleh kambing – seperti yang lainnya dalam mitologi Jerman, ini adalah simbol yang digunakan untuk mengekspresikan realitas tak kasat mata di mana dunia material dianggap berpola.)
+\n\n
+Musuh khusus Thor adalah Jormungand , ular laut raksasa yang mengelilingi Midgard , dunia peradaban manusia. Dalam satu mitos, ia mencoba menarik Jormungand keluar dari laut saat dalam perjalanan memancing , dan dihentikan hanya ketika rekan raksasanya memotong tali pancing karena takut. Thor dan Jormungand akhirnya saling berhadapan selama Ragnarok , namun, ketika keduanya saling mengakhiri.
+\n\n
+Mengingat perlindungannya yang selalu waspada terhadap kosmos pra-Kristen Eropa utara dari kekuatan kekacauan, kehancuran, dan entropi yang diwakili oleh para raksasa, agak ironis bahwa Thor sendiri adalah raksasa tiga perempat. Ayahnya, Odin , adalah setengah raksasa, dan ibunya, dengan berbagai nama sebagai Jord (Old Norse Bumi), Hlöðyn, atau Fjörgyn , sepenuhnya dari keturunan raksasa. Namun, garis keturunan seperti itu sangat umum di antara para dewa, dan menunjukkan bagaimana hubungan antara para dewa dan raksasa, yang tegang dan penuh perselisihan, tidak dapat direduksi menjadi sekadar permusuhan.
+\n\n
+Aktivitasnya di alam ilahi dicerminkan oleh aktivitasnya di alam manusia (Midgard), di mana ia dihimbau oleh mereka yang membutuhkan perlindungan, kenyamanan, dan berkat serta kesucian tempat, benda, dan peristiwa. Banyak prasasti rahasia yang masih hidup memanggilnya untuk menyucikan kata-kata dan tujuan yang dimaksudkan, dan dialah yang dipanggil untuk menyucikan pernikahan. Bukti ini dilestarikan, di antara tempat-tempat lain, dalam kisah Thor Menyamar sebagai Mempelai Wanita . Pemukim Islandia paling awal memintanya untuk menguduskan sebidang tanah mereka sebelum mereka membangun bangunan atau menanam tanaman.
+\n\n
+Palu Thor dapat digunakan untuk menguduskan semudah itu dapat digunakan untuk menghancurkan - dan, pada dasarnya, kedua sifat ini adalah satu dan sama, karena pemurnian apa pun harus melibatkan pembuangan kekuatan atau elemen musuh. Pemberkatan pernikahan, misalnya, dilakukan melalui palunya. Mungkin kasus yang paling mencolok dari hal ini, bagaimanapun, adalah kemampuannya untuk membunuh dan memakan kambing yang mengendarai keretanya, mengumpulkan tulang-tulang mereka di kulit mereka, memberkati kulit dengan palu, dan menghidupkan kembali hewan-hewan itu, sehat dan penting seperti sebelumnya.
+\n\n
+Kesuburan dan Pertanian
+Selain perannya sebagai pejuang teladan dan pembela tatanan masyarakat dan ambisinya, Thor juga memainkan peran besar dalam mempromosikan pertanian dan kesuburan (sesuatu yang telah disarankan oleh berkatnya dari tanah di mana yang pertama Islandia menetap). Ini adalah perpanjangan lain dari perannya sebagai dewa langit, dan yang terutama terkait dengan hujan yang memungkinkan tanaman tumbuh. Sebagai sejarawan Jerman abad kesebelas Adam dari Bremen mencatat, Thor, kata mereka, memimpin udara, yang mengatur guntur dan kilat, angin dan hujan, cuaca cerah dan tanaman.Istrinya yang jarang disebutkan, Sif, terkenal karena rambut emasnya di atas segalanya, yang tentunya merupakan simbol ladang gandum. ."
+                android:textAlignment="viewStart"
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JormungandLOKI"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="JORMUNGAND"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jormungandlay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="Jormungand atau Jormungandr, Ular Dunia, Ular Midgard, adalah anak Loki dan raksasa Angerboda. Jormungand melambangkan kejahatan.
+\n\n
+Jormungand sangat berbahaya. Dia dapat membunuh mangsanya dengan cara membelitnya. Selain itu, racunnya juga sangat mematikan, bahkan bagi dewa sekalipun. Jormungand adalah musuh Thor yang paling berbahaya.
+\n\n
+Untuk mengurung Jormungand yang terus tumbuh, Odin melempar ular itu ke laut. Namun Jormungand tumbuh begitu besar hingga tubuhnya sepenuhnya melingkupi dunia.
+\n\n
+Pada bentrokan pertama antara Thor dan Jormungand, Thor gagal membunuh ular itu. Thor pada awalnya berhasil menjerat Jormungand seperti ikan. Lalu Thor berusaha memukul kepala Jormungand dengan palunya, Mjollnir. Namun raksasa Hymir, yang ketakutan, memotong tali pancing Thor sehingga Jormungand berhasil kabur.
+\n\n
+Dalam Ragnarok, Jormungand berhasil melepaskan diri dari kurungan bawah lautnya. Thor kembali bertarung dengan ular ini dan kali ini Thor sukes membunh Jormungan dengan Mjollnir. Namun akhirnya Thor juga harus tewas akibat racun Jormungand"
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

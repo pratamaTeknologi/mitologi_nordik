@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OdinAesir"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="ODIN"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/odinlay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="Odin adalah dewa tertinggi dan tertua di antara para dewa.
+Odin digambarkan sebagai pria tua bermata satu. Ia memberikan salah satu matanya untuk ditukar dengan kebijaksanaan. Odin mengetahui banyak rahasia dunia. Ia memiliki 2 burung gagak bernama Huggin dan Munnin. Huggin artinya pikiran. Munnin artinya kenangan. Kedua burung gagak sering terbang keliling dunia untuk mencari kabar. Mereka membisikkan kabar itu ke telinga Odin saat bertengger di sampingnya. Odin juga memiliki sepasang serigala bernama Geri dan Freki.
+\n\n
+Salah satu atribut yang paling mencolok dari penampilannya adalah matanya yang tunggal dan tajam. Rongga matanya yang lain kosong – mata yang pernah dipegangnya dikorbankan untuk kebijaksanaan .
+\n\n
+Pada kesempatan lain, Odin mengorbankan dirinya untuk dirinya sendiri dengan menggantung di pohon dunia Yggdrasil selama sembilan hari sembilan malam, tidak menerima makanan dan minuman. Di akhir cobaan ini, dia melihat rune , alfabet Jermanik kuno yang mengandung banyak rahasia terbesar.\n\n
+Odin bertakhta di Asgard, negeri para dewa. Namun, ia suka bepergian dengan menyamar agar bisa melihat dunia apa adanya. Saat menyamar, Odin dikisahkan berbentuk manusia tinggi besar yang memakai jubah dan topi. Ciri khasnya adalah mata satunya. Odin memiliki banyak nama di berbagai daerah. Ia dikenal sebagai Blindr, si dewa buta. Odin juga dikenal sebagai Hoarr, si mata satu. Baleyg, si mata api, juga menjadi nama julukannya.
+\n\n
+Odin memiliki senjata andalan, yaitu sebuah lembing yang dinamai Gungmir. Lembing itu dapat menembus apa pun. Pada saat dilemparkan, lembing itu akan selalu mengenai sasarannya. Lembing ini dia gunakan pada saat Ragnarok, kiamat para dewa dalam mitologi Nordik. Odin melemparkan lembingnya ke arah Fenrir, serigala raksasa yang akan melahapnya. Lembing itu lenyap di dalam mulut serigala raksasa itu. Demikian pula Odin. Ia ditelan oleh Fenrir, serigala raksasa itu."
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

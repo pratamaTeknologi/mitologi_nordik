@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DwaftWC"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="DWAFT"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/kurcacilay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="Dwaft atau dalam bahasa indonesianya kurcaci merupakan makhluk berperawakan kecil dan berjanggut.
+Para kurcaci tinggal di bawah tanah di Svartalfheim ,  tempat yang mungkin dianggap sebagai kompleks labirin tambang dan penempaan.
+\n\n
+Para kurcaci paling sering dikenal sebagai pandai besi dan pengrajin yang sangat terampil. Di antara banyak harta tak tergantikan yang diciptakan oleh mereka adalah: Mjollnir, palu Thor ; Gleipnir, rantai yang mengikat serigala Fenrir ketika semua belenggu lainnya gagal; Skidbladnir, kapal milik Freyr dan selalu memiliki angin yang baik; Gungnir , tombak Odin ; Draupnir, cincin milik Odin; Brisingamen, kalung megah milik Freya ; dan rambut panjang keemasan Sif, istri Thor. Mereka juga sangat berpengetahuan, bijaksana, dan kuat secara magis .Mereka berubah menjadi batu jika terkena sinar matahari.
+\n\n
+Empat kurcaci, Austri, Vestri, Nordri, dan Sudri (Timur, Barat, Utara, dan Selatan) mengangkat empat penjuru langit, membuktikan kekuatan kolosal mereka.
+\n\n
+Garis antara kurcaci, elf , dan manusia mati sangat kabur. Kurcaci kadang-kadang disebut elf hitam, dan dalam beberapa kasus mereka digambarkan mati atau menyerupai mayat manusia."
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

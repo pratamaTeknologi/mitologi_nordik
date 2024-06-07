@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FriggAesir"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="FRIGG"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/frigglay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="Frigg dikenal sebagai istri  Odin , Frigg adalah anggota yang berkuasa dari suku Aesir dan ratu dari semua dewa Nordik.  Frigg memegang kekuasaan atas banyak bidang kehidupan, dan dikaitkan dengan kesuburan, pernikahan dan rumah tangga, cinta dan seksualitas, serta kebijaksanaan dan ramalan.
+Secara historis, sebagian besar orang menganggap Frigg sebagai aspek  Freya , dewi suku Vanir, karena karakteristik dasarnya sangat mirip dengan Frigg.
+\n\n
+Seperti Freya, Frigg adalah seorang  völva,  atau praktisi seni magis  seidr , dan berusaha untuk meramal atau mengubah masa depan melalui ritual. Sementara dua dewi sering ditampilkan sebagai dewa yang terpisah, mereka kemungkinan berevolusi dari satu dewa yang kepribadiannya terombang-ambing cukup keras untuk mendapatkan identitas yang terpisah. Freya, misalnya, dikenal karena kesenangan seksual dan pergaulan bebas; Frigg, sementara itu, lebih konservatif dalam moralitas seksualnya.
+\n\n
+Atribut
+\n\n
+Sebagai istri Odin, Frigg adalah ratu para  dewa Norse yang tak terbantahkan . Dalam seni dari abad kesembilan belas dan awal abad kedua puluh, Frigg sering digambarkan duduk di atas takhta atau memegang pose memerintah.
+\n\n
+Frigg tinggal di Fensalir, alam berair yang kemungkinan berbentuk rawa, rawa, atau lahan basah. Dia memiliki kotak abu-abu yang disebut  eski , yang dibawa oleh dewi Fulla untuknya; isi kotak itu tidak diketahui. Dia juga dikenal memiliki satu set bulu elang yang digunakan para dewa, terutama  Loki , untuk berubah bentuk menjadi bentuk burung.
+Odin dan Frigg,  duduk di Hlithskjolf—ruang singgasana Odin—dari mana mereka bisa mengamati semua dunia secara bersamaan."
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

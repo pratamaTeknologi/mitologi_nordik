@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GamrGiant"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="GAMR"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/gamrlay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="Garm ( Old Norse Garmr , yang makna/etimologinya tidak diketahui) adalah anjing atau serigala yang terkait dengan dunia bawah dan kekuatan penghancur . penghancuran kosmos dan tenggelamnya kembali ke dalam kekacauan. Salah satu peristiwa lain yang dikatakan pembawa berita Ragnarok adalah melarikan diri dari serigala Fenrir , yang telah diikat oleh para dewa dan ditinggalkan di rawa terpencil sehingga dia tidak akan melahap kosmos. Dua gambar serigala terikat yang terlepas pada saat yang sama membuat orang bertanya-tanya apakah Fenrir dan Garm pada akhirnya adalah sosok yang sama atau tidak.
+\n\n
+Penafsiran ini didukung oleh fakta bahwa, sebagai dewa dan kekuatan pertempuran kekacauan selama Ragnarok, dewa Tyr dikatakan melibatkan Garm dalam pertempuran tunggal. Karena Tyr sebelumnya telah menipu Fenrir untuk membiarkan dirinya terikat dalam rantai yang tidak dapat dipatahkan, dan karena Fenrir telah menggigit tangan dewa dalam prosesnya, masuk akal jika keduanya memiliki dendam satu sama lain, yang dalam gilirannya membuat kemungkinan bahwa serigala Tyr akan bertarung selama Ragnarok tidak lain adalah Fenrir."
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

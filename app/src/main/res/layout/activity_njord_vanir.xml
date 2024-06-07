@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NjordVanir"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="NJORD"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/njordlay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="Njord adalah dewa angin dan laut pada mitologi nordik. Dipercaya juga sebagai dewa kekayaan oleh para pelaut pada era Viking yang selalu mengaitkan kekayaan mereka dengan laut, karena sebagian besar sumber kekayaan orang-orang Viking diperoleh dari hasil tangkapan laut. Dia diyakini memiliki kemampuan untuk menenangkan air laut dan memadamkan api, meredamkan badai, membantu pelayaran kapal yang mengalami kesulitan, dan meniup angin yang membawa keberuntungan. Njord dikaitkan dengan pelayaran dalam kepercayaan orang-orang Viking yang sangat kaya dan makmur serta mampu memberikan kekayaan dalam bentuk tanah dan benda berharga lainnya kepada mereka yang memohon bantuannya.
+\n\n
+Ia Juga digambarkan sebagai pelundung para pelaut dan nelayan serta yang menguasai nasib mereka
+\n\n
+Dewa Njord memiliki tempat tinggal di tepi laut yang disebut sebagai Noathun (tempat persinggahan kapal). Dia memiliki dua anak kembar, Freyr dan Freya serta mempunyai saudara kembar Nerthus yang juga merupakan istri pertamanya.
+\n\n
+Ia adalah pemimpin dari dewa-dewi kaum vanir khususnya pada saat terjadinya perang antara Vanir melawan dewa-dewa Aesir, yang kemudian Ia menukar dirinya menjadi bagian kaum Aesir sebagai tebusan untuk para tawanan perang kaum Vanir.
+\n\n
+Dewa Njord adalah salah satu dari beberapa dewa yang diceritakan selamat dari peristiwa Ragnarok (kehancuran Asgard).Pada suatu kisah diceritakan bahwa Njord menikah dengan raksasa Skadi, Putri dari raksasa bernama Tjahzi. Skadi menikahi Dewa Njord karena suatu kesalahannya sendiri. Kisah ini diawali dengan kejadian penculikan dewa pelayan jamuan (Dewa Idun) oleh Tjahzi yang kemudian dihakimi oleh para Dewa Aesir sehingga membuat raksasa Tjahzi meninggal. Mengetahui kejadian ini, Skadi berencana untuk membalaskan dendamnya kepada para dewa yang sedang mengadakan pesta di Asgard dengan membawa salah satu lengan raksaa Tjahzi sebagai barang buktinya.
+\n\n
+Terjadi pertikaian yang panjang antara raksasa Skadi dan para dewa di aula Asgard. Pertikaian tersebut diakhiri dengan rekonsiliasi bahwa Skadi berhak memilih calon suaminya dari para dewa yang hadir, setelah sebelumnya Skadi menolak atas tawaran ganti rugi berupa pemberian wergild (harta emas milik dewa Odin). Akan tetapi syarat yang harus ia lakukan adalah Skadi harus memilih calon suaminya berdasarkan hanya dengan melihat kaki bagian bawahnya saja. Namun Skadi tidak mendapatkan apa yang ia harapkan, yaitu memilih Dewa Baldr (anak Dewa Odin yang berparas tampan) melainkan memilih Dewa Njord yang kukitnya tampak tua dan memikiki bau khas garam dan laut.
+\n\n
+Dewa Njord dan Skadi hidup bersama dengan kurun waktu yang cukup singkat. Hal ini dikarenakan Dewa Njord lebih memilih tinggal di tempatnya di tepian laut yang hangat dan ramai dengan gemuruh ombak, sementara raksasa Skadi tetap ingin tinggal di tempat asalnya, Thrymheim (rumah guntur), sebuah tempat di puncak pegunungan yang dingin, gelap, dan sunyi. Mereka sempat tinggal di Thrymheim selama 9 hari namun Dewa Njord tidak dapat menikmati suasana gelap dan raungan serigala, begitu juga ketika mereka mencoba tinggal di Noathun selama 9 hari, Skadi sangat terganggu dengan kicauan burung dan teriknya tepian laut, hingga akhirnya mereka memutuskan untuk berpisah."
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

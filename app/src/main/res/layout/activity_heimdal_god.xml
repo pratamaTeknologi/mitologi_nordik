@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeimdalAesir"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="HEIMDAL"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/heimdalllay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="Heimdal adalah salah satu dewa Aesir dan penjaga benteng para dewa, Asgard yang selalu waspada .
+\n\n
+Tempat tinggalnya disebut Himinbjörg (Tebing Langit, yang berarti tempat tinggi yang ideal untuk benteng), yang terletak di puncak Bifrost , jembatan pelangi yang mengarah ke Asgard. Dia membutuhkan lebih sedikit tidur daripada seekor burung. Penglihatannya sangat tajam sehingga dia bisa melihat ratusan mil di siang atau malam hari, dan pendengarannya sangat tajam sehingga dia bisa mendengar rumput tumbuh di tanah dan wol tumbuh di domba.Di sini dia melihat dan mendengarkan, sambil menyiapkan terompet Gjallarhorn (Terompet Bergemuruh), yang dia bunyikan saat penyusup mendekat.
+\n\n
+Selama Ragnarok , para dewa akan tahu bahwa ajal mereka sudah dekat ketika mereka mendengar panggilan mengerikan dari Gjallarhorn yang menandakan kedatangan raksasa yang akan segera terjadi , yang akan menyeberangi jembatan pelangi untuk menyerbu Asgard dan membunuh para dewa. Loki yang tidak setia , musuh bebuyutan dari Heimdall yang , akan bersama mereka. Loki dan Heimdall akan saling membunuh saat dunia terbakar dan tenggelam ke laut.
+\n\n
+Heimdall sendiri, seperti banyak dewa Nordik, adalah putra Odin . Dalam suatu prestasi yang mungkin bagi para dewa tetapi tidak bagi makhluk biologis, ia dilahirkan dari tidak kurang dari sembilan ibu."
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

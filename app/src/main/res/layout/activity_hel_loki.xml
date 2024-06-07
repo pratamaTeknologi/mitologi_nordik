@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelLOKI"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="HEL"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/hellay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="Hel adalah makhluk mitologi Nordik (Old Norse) berupa raksasa wanita yang berkuasa atas banyak orang mati. Nama Hel yang berarti tersembunyi memiliki kaitan yang erat dengan dunia bawah dan orang mati yang disembunyikan atau dikubur dalam tanah.
+\n\n
+Hel adalah putri dari dewa Loki dan Angrboda raksasa. Kerajaanya berbaring ke bawah dan ke utara yang dulunya disebut Niflheim yang artinya dunia kegelapan. Hel dikaitkan dengan anjing bernama Garmr dan gagak. Terkadang ia juga berafiliasi dengan batu Hagalaz Rune. Hal ini menjadikannya bagian dari keluarga yang berbahaya dan tidak terpuji.
+\n\n
+Hel pada umumnya digambarkan sebagai orang yang tamak, kasar dan kejam, serta paling tidak acuh terhadap kebaikan yang hidup maupun yang mati.
+\n\n
+ayah Hel yakni Loki adalah dewa panipu sedangkan ibunya yakni Angrboda adalah raksasa. Hel terlahir dari tulang-tulang di separuh tubuhnya terekspos. Ketika Hel lahir, penyakit pertama kali datang ke dunia.
+ Loki memiliki tiga anak yakni si serigala Fenrir, si ular laut Jörmungandr dan Hel yang merupakan putri satu-satunya. Hel tumbuh bersama kedua saudara kandungnya di negeri para raksasa yakni Jötunheimr sampai Odin. penguasa Aesir memutuskan mereka harus tinggal di Asgard tempat ayah mereka berasal. Akan tetapi ketika berada di Asgard, para dewa Norse lainnya merasa tidak nyaman dengan penampilan Hel. Odin akhirnya menyuruh Hel untuk pergi kemudian memberinya dunia Niflheim yang merupakan salah satu dari sembilan alam pohon abu kosmik Yggdrasil. Niflheim ada di bawah akar pohon dunia Yggdrasil. Disana, Hel menjadi ratu orang mati.
+"
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

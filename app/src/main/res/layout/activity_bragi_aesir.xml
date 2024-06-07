@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BragiAesir"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="BRAGI"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/bragilay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="Bragi  adalah penyair yang bijaksana dan terpelajar  dari Valhalla , aula megah dewa Odin .  dia yang memuja einherjar , orang mati yang tinggal di Valhalla, dan menyambut pahlawan yang baru saja meninggal ke tengah-tengah mereka.  dia memiliki rune yang diukir di lidahnya.
+\n\n
+Bragi awalnya adalah penyair sejarah abad kesembilan Bragi Boddason. Puisi-puisinya sangat indah dan menyentuh sehingga generasi berikutnya membayangkan bahwa, setelah kematiannya, Odin mengangkatnya sebagai penyair istana Valhalla. Lagi pula, pasukan elit prajurit, raja, dan lainnya yang disukai oleh Odin membutuhkan penyair elit untuk menyanyikan eksploitasi mereka yang tak terhitung jumlahnya.
+\n\n
+Para penulis Norse Kuno dari Abad Pertengahan Kristen mengambil langkah ini lebih jauh dan menggambarkan Bragi sebagai dewa puisi.  Dia dikatakan sebagai suami dari dewi Idun , yang buahnya menjamin kelangsungan keabadian para dewa.
+\n\n
+Namun, ini tampaknya merupakan kesalahpahaman di pihak penulis yang terlambat, dan tidak ada bukti bahwa Bragi pernah benar-benar disembah sebagai dewa sementara agama Norse pra-Kristen masih menjadi tradisi yang hidup"
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

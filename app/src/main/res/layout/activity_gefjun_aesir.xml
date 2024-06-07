@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GefjunAesir"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="GEFJUN"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/gefjunlay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="gefjun adalah dewi pertanian, kesuburan, kelimpahan, dan kemakmuran Norse kuno. Namanya berasal dari kata kerja Norse Kuno gefa , memberi, dan namanya dapat diterjemahkan sebagai Pemberi atau Yang Murah Hati.
+\n\n
+Gefjun melakukan perjalanan ke Swedia dengan menyamar sebagai wanita tunawisma. Ketika dia muncul di hadapan Raja Gylfi yang murah hati, dia memberinya tanah sebanyak empat ekor sapi yang bisa dibajak dalam satu hari. Gefun memanggil keempat putranya, yang dia miliki oleh raksasa yang tidak disebutkan namanya, dan mengubah mereka menjadi lembu untuk membajak tanah. Mereka tidak hanya membajak tanah; mereka juga menyeretnya dari Swedia, di mana depresi yang dihasilkan menjadi danau Mälaren, dan keluar ke laut, di mana ia menjadi pulau Selandia Denmark, di mana kota Kopenhagen saat ini berada.
+\n\n
+Asosiasi antara dewi kemakmuran bumi dan tindakan membajak adalah umum di seluruh agama pra-Kristen di Norse dan masyarakat Jermanik lainnya. Nama dewi Fjorgyn , yang pada Zaman Viking telah digunakan sebagai sinonim untuk bumi.
+\n\n
+ Asosiasi dengan pulau Zealand juga menunjukkan hubungan antara Gefjun dan Nerthus , dewi ibu bumi lain yang kultusnya juga dikatakan berpusat di Selandia.
+\n\n
+Loki menuduh Gefjun telah menukar seks dengan permata berharga, sesuatu yang juga dikatakan telah dilakukan oleh dewi Freya . Karena Freya juga merupakan dewi bumi (kedamaian dan kelimpahan), bagian ini menimbulkan pertanyaan sejauh mana Freya dan Gefjun dapat dibedakan satu sama lain. Memang, salah satu nama lain Freya adalah Gefn , yang juga berasal dari kata kerja gefa dan juga berarti sesuatu seperti Pemberi atau Yang Murah Hati.
+\n\n
+Bagaimanapun, pergaulan bebas Gefjun membuat Snorri terlihat agak konyol ketika dia mengklaim bahwa Gefjun masih perawan dan bahwa gadis-gadis yang mati perawan pergi ke tempatnya ketika mereka mati.
+
+"
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NidhoggYGG"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="NIDHOGG"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/nidhogglay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="Nidhogg adalah ular/naga yang paling depan dari beberapa ular atau naga yang tinggal di bawah pohon dunia Yggdrasil dan memakan akarnya. Ini sangat berbahaya bagi pohon, yang memegang Sembilan Dunia kosmos.
+\n\n
+ Tindakan Nidhogg memiliki niat untuk menarik kosmos kembali ke kekacauan, dan dia, bersama dengan kelompok reptilnya, karena itu pasti dapat diklasifikasikan di antara para raksasa (atau, sebagaimana mereka disebut pada zaman pra-Kristen, pemakan).
+\n\n
+Dari sini masuk akal jika Nidhogg memiliki peran penting dalam Ragnarok , kehancuran alam semesta . Hal ini memang tampaknya menjadi kasus.
+\n\n
+ Nidhogg digambarkan terbang keluar dari bawah Yggdrasil selama Ragnarok, mungkin untuk membantu tujuan para raksasa."
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

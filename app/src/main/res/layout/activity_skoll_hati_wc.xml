@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkollHatiWC"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="SKOLL and HATI"
+                android:textColor="#F7EDED"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:src="@drawable/skoll_and_hatilay"></ImageView>
+
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:text="Skoll dan Hati (atau Hati Hrodvitnisson) adalah dua serigala raksasa yang mengejar dua benda langit, yaitu matahari dan bulan.(nott dan dagr.)\n\n
+Skoll dan Hati adalah anak dari fenrir, yaitu serigala raksasa yang diikat oleh para dewa agar tidak menimbulkan bencana.
+\n\n
+Fenrir sendiri telah diramalkan akan memakan dewa Odin dalam kejadian Ragnarok.
+Salah satu pertanda bahwa Ragnarok akan dimulai adalah bahwa Skoll berhasil memakan Matahari, dan Hati berhasil menelan bulan. Setelah itu Sembilan Dunia akan menderita musim dingin yang panjang.  kehancuran kosmos, mereka menangkap mangsanya saat langit dan bumi menjadi gelap dan runtuh.
+"
+                android:textAlignment="viewStart"
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

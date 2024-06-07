@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pratamatech.mitologinordik">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launchernew1"
+        android:label="mitologi"
+        android:roundIcon="@mipmap/ic_launchernew1_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MitologiNordik"
+        tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6014536128179477~1023724865" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".HelLOKI"
+            android:exported="false" />
+        <activity
+            android:name=".JormungandLOKI"
+            android:exported="false" />
+        <activity
+            android:name=".FenrirLOKI"
+            android:exported="false" />
+        <activity
+            android:name=".BestlaGiant"
+            android:exported="false" />
+        <activity
+            android:name=".GamrGiant"
+            android:exported="false" />
+        <activity
+            android:name=".DagrGiant"
+            android:exported="false" />
+        <activity
+            android:name=".NottGiant"
+            android:exported="false" />
+        <activity
+            android:name=".SkadiGiant"
+            android:exported="false" />
+        <activity
+            android:name=".YmirGiant"
+            android:exported="false" />
+        <activity
+            android:name=".MimirYGG"
+            android:exported="false" />
+        <activity
+            android:name=".MidgardYGG"
+            android:exported="false" />
+        <activity
+            android:name=".AlfheimYGG"
+            android:exported="false" />
+        <activity
+            android:name=".AsgardYGG"
+            android:exported="false" />
+        <activity
+            android:name=".BifrostYGG"
+            android:exported="false" />
+        <activity
+            android:name=".HelheimYGG"
+            android:exported="false" />
+        <activity
+            android:name=".HvelgermirYGG"
+            android:exported="false" />
+        <activity
+            android:name=".JotunheimYGG"
+            android:exported="false" />
+        <activity
+            android:name=".NidhoggYGG"
+            android:exported="false" />
+        <activity
+            android:name=".MuspelheimYGG"
+            android:exported="false" />
+        <activity
+            android:name=".NiflheimYGG"
+            android:exported="false" />
+        <activity
+            android:name=".RatatoskrYGG"
+            android:exported="false" />
+        <activity
+            android:name=".SvartalheimYGG"
+            android:exported="false" />
+        <activity
+            android:name=".UrdYGG"
+            android:exported="false" />
+        <activity
+            android:name=".VallhalaYGG"
+            android:exported="false" />
+        <activity
+            android:name=".VanaheimYGG"
+            android:exported="false" />
+        <activity
+            android:name=".VerdfornirYGG"
+            android:exported="false" />
+        <activity
+            android:name=".YggdrasilYGG"
+            android:exported="false" />
+        <activity
+            android:name=".OdrVanir"
+            android:exported="false" />
+        <activity
+            android:name=".NjordVanir"
+            android:exported="false" />
+        <activity
+            android:name=".NerthusVanir"
+            android:exported="false" />
+        <activity
+            android:name=".GullveigVanir"
+            android:exported="false" />
+        <activity
+            android:name=".FreyaVanir"
+            android:exported="false" />
+        <activity
+            android:name=".FreyVanir"
+            android:exported="false" />
+        <activity
+            android:name=".VanirGod"
+            android:exported="false" />
+        <activity
+            android:name=".FriggAesir"
+            android:exported="false" />
+        <activity
+            android:name=".SiffAesir"
+            android:exported="false" />
+        <activity
+            android:name=".Modi_magniAesir"
+            android:exported="false" />
+        <activity
+            android:name=".GefjunAesir"
+            android:exported="false" />
+        <activity
+            android:name=".ForsetiAesir"
+            android:exported="false" />
+        <activity
+            android:name=".BuriAesir"
+            android:exported="false" />
+        <activity
+            android:name=".BragiAesir"
+            android:exported="false" />
+        <activity
+            android:name=".BorrAesir"
+            android:exported="false" />
+        <activity
+            android:name=".BaldurAesir"
+            android:exported="false" />
+        <activity
+            android:name=".IdunAesir"
+            android:exported="false" />
+        <activity
+            android:name=".LokiAesir"
+            android:exported="false" />
+        <activity
+            android:name=".TyrAesir"
+            android:exported="false" />
+        <activity
+            android:name=".ValkrieAesir"
+            android:exported="false" />
+        <activity
+            android:name=".ThorAesir"
+            android:exported="false" />
+        <activity
+            android:name=".HeimdalAesir"
+            android:exported="false" />
+        <activity
+            android:name=".ViliAesir"
+            android:exported="false" />
+        <activity
+            android:name=".VeAesir"
+            android:exported="false" />
+        <activity
+            android:name=".OdinAesir"
+            android:exported="false" />
+        <activity
+            android:name=".DwaftWC"
+            android:exported="false" />
+        <activity
+            android:name=".Ash_ElmWC"
+            android:exported="false" />
+        <activity
+            android:name=".SkollHatiWC"
+            android:exported="false" />
+        <activity
+            android:name=".SurtrWC"
+            android:exported="false" />
+        <activity
+            android:name=".YmirFightWC"
+            android:exported="false" />
+        <activity
+            android:name=".AudhumlaWC"
+            android:exported="false" />
+        <activity
+            android:name=".GinungagapWC"
+            android:exported="false" />
+        <activity
+            android:name=".LokiChild"
+            android:exported="false" />
+        <activity
+            android:name=".Giant"
+            android:exported="false" />
+        <activity
+            android:name=".YggdrasilUniverse"
+            android:exported="false" />
+        <activity
+            android:name=".AesirGod"
+            android:exported="false" />
+        <activity
+            android:name=".WorldCreated"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

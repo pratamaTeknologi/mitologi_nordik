@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TyrAesir"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="TYR"
+                android:textColor="#F7EDED"
+                android:textSize="30sp"
+                />
+
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/tyrlay">
+            </ImageView>
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:textAlignment="viewStart"
+                android:text="Tyr adalah dewa perang Norse, tetapi juga dewa yang, lebih dari yang lain, memimpin masalah hukum dan keadilan. Perannya dalam mitos Zaman Viking yang masih hidup relatif kecil, dan statusnya di bagian akhir Zaman Viking mungkin juga kecil. Tapi ini tidak selalu terjadi. Jenis bukti lain menunjukkan kepada kita bahwa Tyr pernah menjadi salah satu dewa terpenting bagi bangsa Nordik dan bangsa Jermanik lainnya.
+\n\n
+Perang, Hukum, dan Keadilan
+\n\n
+Peran Tyr sebagai salah satu dewa perang utama dari Norse, bersama dengan Odin dan Thor , valkyrie Sigrdrifa menginstruksikan pahlawan manusia Sigurd untuk memohon Tyr untuk kemenangan dalam pertempuran.Loki menghina Tyr dengan mengatakan bahwa dia hanya bisa menggerakkan orang untuk berselisih, dan tidak akan pernah bisa mendamaikan mereka.
+\n\n
+Tyr jauh dari sekedar dewa perang. Bahkan, peran utamanya tampaknya adalah sebagai penegak hukum dan keadilan."
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GinungagapWC"
+    android:background="@drawable/backroundkosong">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/viking"
+                android:gravity="center"
+                android:text="GINUNGAGAP"
+                android:textColor="#F7EDED"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="322dp"
+                android:layout_height="171dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:src="@drawable/ginnungagaplay"></ImageView>
+
+            <TextView
+                android:id="@+id/texContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="80dp"
+                android:fontFamily="@font/nunito_sans_semibold"
+                android:text="Ginnungagap adalah jurang tak berdasar yang ada sebelum penciptaan kosmos , dan di mana kosmos akan runtuh sekali lagi selama Ragnarok,giinungagap (kekosongan / kehampaan) , yang merupakan bentuk seperti jurang besar yang diapit oleh 2 dunia Niflheim (dunia yang selalu dingin dan gelap) yang seluruhnya membeku... dan Muspelheim  (dunia yang panas) karna percikan api dan lahar yang mengalir... ginungagap menjadi tempat pertemuan 2 suhu antara muspelheim dan niflheim... lama-lama , efek dari pertemuan dua suhu itu, munculah awal kehidupan\n\nsebuah jurang lebar di luar angkasa, yang saking lebarnya hingga tidak ada suara, cahaya, atau apapun yang hidup atau tidak hidup di dalamnya, benar-benar suatu tempat hampa. Dari asal katanya, Gap memiliki arti yang sama dengan yang digunakan bahasa inggris sekarang yaitu celah, sedangkan arti kata Ginnung berarti “magically charged” (Medan Sihir atau Medan Energi).\n\nGinnungagap tempat yang menghadap utara akan semakin dingin, dipenuhi gunung es dan tak ada yang tumbuh di sana, sedangkan di dalamnya memercik air dan hembusan angin, dan di bagian selatan diterangi percikan api dan massa berkilauan yang mengalir dari Muspelheim."
+                android:textAlignment="viewStart"
+                android:textColor="#F7EDED"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
