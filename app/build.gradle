@@ -4,14 +4,15 @@ plugins {
 }
 
 android {
-    compileSdk 33
+    namespace 'com.pratamatech.mitologinordik'
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.prlimited.mitolognordik"
         minSdk 21
-        targetSdk 33
-        versionCode 5
-        versionName "1.4"
+        targetSdk 34
+        versionCode 6
+        versionName "1.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -42,8 +43,8 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
     implementation "androidx.lifecycle:lifecycle-runtime:2.5.1"
     implementation 'androidx.lifecycle:lifecycle-process:2.5.1'
-    implementation 'com.applovin:applovin-sdk:11.11.1'
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.5.1"
+    implementation 'com.applovin:applovin-sdk:11.11.1'
 
 
     //pihak ketiga
